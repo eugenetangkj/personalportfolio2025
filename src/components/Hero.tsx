@@ -7,19 +7,19 @@ This component represents the Hero section of the landing page.
 */
 export default function Hero() {
     return (
-        <section className='h-screen flex flex-col items-start justify-center space-y-24'>
-                <div className='flex flex-col space-y-4'>
-                    <h1 className='font-inter text-8xl text-portfolioblack font-extrabold leading-28'>
+        <section className='h-screen flex flex-col items-start justify-center space-y-24 pt-48 xl:pt-32'>
+                <div className='flex flex-col space-y-8 md:space-y-4'>
+                    <h1 className='font-inter text-6xl text-center md:text-left md:text-8xl text-portfolioblack font-extrabold md:leading-24 xl:leading-28'>
                         I use design and tech to craft solutions that make a <span className='text-portfoliopurple'>real impact</span>
                     </h1>
-                    <div className='grid grid-cols-3 grid-rows-1 items-center gap-x-8'>
-                        <div className="col-span-1 h-px bg-gray-300 w-full" />
-                        <h2 className='col-span-2 text-gray-700 text-2xl'>Hello, I&apos;m Eugene Tang, a software engineer based in Singapore. I build human-centered experiences that tackle meaningful challenges.</h2>
+                    <div className='grid grid-cols-1 md:grid-cols-3 grid-rows-1 items-center gap-x-8'>
+                        <div className="hidden md:block col-span-1 h-px bg-gray-300 w-full" />
+                        <h2 className='col-span-1 md:col-span-2 text-gray-700 text-2xl text-center md:text-left'>Hello, I&apos;m Eugene Tang, a software engineer based in Singapore. I build human-centered experiences that tackle meaningful challenges.</h2>
 
                     </div>
                 </div>
 
-                <div className='flex flex-row justify-between items-center w-full'>
+                {/* <div className='flex flex-row justify-between items-center w-full'>
                     <div className='flex flex-row justify-start items-center space-x-8'>
                         <Link className='uppercase cursor-pointer flex flex-row items-center justify-start space-x-2 text-portfolioblack hover:text-zinc-400 duration-200'
                             href='mailto:eugenetangkangjie@gmail.com'>
@@ -50,7 +50,7 @@ export default function Hero() {
                         <p className='font-medium'>Let&apos;s Connect</p>
                         <ArrowRight className='text-white h-6 w-6' />
                     </button>
-                </div>
+                </div> */}
             
                 
         </section>
