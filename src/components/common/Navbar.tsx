@@ -7,7 +7,7 @@ This component represents the navigation bar shared across pages.
 */
 export default function Navbar() {
     return (
-        <nav className='fixed w-full top-0 start-0 z-20 bg-white text-lg py-8 flex flex-row justify-between items-center max-w-full custom-margin'>
+        <nav className='bg-white text-lg py-8 flex flex-row justify-between items-center max-w-full custom-margin'>
             {/* Logo */}
             <div>
                 <h3 className='font-semibold text-portfolioblack text-xl'>eugenetang<span className='text-portfoliopurple'>kangjie</span></h3>

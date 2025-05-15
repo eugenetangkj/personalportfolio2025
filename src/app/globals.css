@@ -42,10 +42,15 @@
   --radius-xl: calc(var(--radius) + 4px); 
 }
 
-/* Colours */
+
 @theme {
+  /* Colours */
   --color-portfolioblack: #030712;
   --color-portfoliopurple: #7862DA;
+
+
+  /* Heights */
+  --height-80vh: 80vh;
 }
 
 :root {
@@ -128,6 +133,6 @@
 
 @layer utilities {
   .custom-margin {
-    @apply px-16 lg:px-24 2xl:px-72;
+    @apply px-8 sm:px-16 lg:px-24 2xl:px-72;
   }
 }
