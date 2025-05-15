@@ -12,12 +12,12 @@ export default function Hero() {
             
             {/* Title */}
             <div className='flex flex-col space-y-8'>
-                <h1 className='font-inter text-5xl sm:text-6xl text-center md:text-left md:text-8xl text-portfolioblack font-extrabold md:leading-24 xl:leading-24'>
+                <h1 className='font-inter text-5xl sm:text-6xl text-center md:text-left md:text-7xl lg:text-8xl text-portfolioblack font-extrabold leading-14 md:leading-20 lg:leading-24 xl:leading-24'>
                     I use design and tech to craft solutions that make a <span className='text-portfoliopurple'>real impact</span>
                 </h1>
                 <div className='grid grid-cols-1 md:grid-cols-3 grid-rows-1 items-center gap-x-8'>
                     <div className="hidden md:block col-span-1 h-px bg-gray-300 w-full" />
-                    <h2 className='col-span-1 md:col-span-2 text-gray-700 text-2xl text-center md:text-left'>Hello, I&apos;m Eugene Tang, a software engineer based in Singapore. I build human-centered experiences that tackle meaningful challenges.</h2>
+                    <h2 className='col-span-1 md:col-span-2 text-gray-700 text-xl sm:text-2xl text-center md:text-left'>Hello, I&apos;m Eugene Tang, a software engineer based in Singapore. I build human-centered experiences that tackle meaningful challenges.</h2>
 
                 </div>
             </div>
