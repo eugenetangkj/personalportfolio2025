@@ -8,7 +8,14 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-inter: var(--font-inter);
+  --font-inter: var(--font-inter); 
+}
+
+
+/* Colours */
+@theme {
+  --color-portfolioblack: #030712;
+  --color-portfoliopurple: #7862DA;
 }
 
 @media (prefers-color-scheme: dark) {
