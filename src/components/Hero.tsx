@@ -12,7 +12,7 @@ export default function Hero() {
             
             {/* Title */}
             <div className='flex flex-col space-y-8'>
-                <h1 className='font-inter text-5xl sm:text-6xl text-center md:text-left md:text-8xl text-portfolioblack font-extrabold md:leading-24 xl:leading-28'>
+                <h1 className='font-inter text-5xl sm:text-6xl text-center md:text-left md:text-8xl text-portfolioblack font-extrabold md:leading-24 xl:leading-24'>
                     I use design and tech to craft solutions that make a <span className='text-portfoliopurple'>real impact</span>
                 </h1>
                 <div className='grid grid-cols-1 md:grid-cols-3 grid-rows-1 items-center gap-x-8'>

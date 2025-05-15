@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { NAVBAR_DESKTOP_LINKS } from "@/constants/navigation";
+import { Menu } from "lucide-react";
 
 
 /**
@@ -24,6 +25,7 @@ export default function Navbar() {
             </div>
 
             {/* Hamburger menu icon */}
+            
             
         </nav>
     );
