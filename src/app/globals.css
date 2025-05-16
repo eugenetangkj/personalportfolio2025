@@ -133,6 +133,6 @@
 
 @layer utilities {
   .custom-margin {
-    @apply px-8 sm:px-16 lg:px-24 2xl:px-72;
+    @apply px-8 sm:px-16 lg:px-24 2xl:px-64;
   }
 }
