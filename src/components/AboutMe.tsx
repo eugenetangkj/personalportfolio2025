@@ -16,7 +16,7 @@ export default function AboutMe() {
             {/* Title and text */}
             <div className='lg:col-span-2 flex flex-col space-y-8'>
                 <div className='flex flex-col space-y-4'>
-                    <h3 className='col-span-1 md:col-span-2 text-gray-700 text-xl sm:text-2xl text-center md:text-left'>About Me</h3>
+                    <h4 className='col-span-1 md:col-span-2 text-gray-700 text-xl sm:text-2xl text-center md:text-left'>About Me</h4>
                     <h2 className='font-inter text-4xl md:text-5xl lg:text-6xl text-portfolioblack font-bold text-center md:text-left'>
                         Passionate about making a <span className='text-portfoliopurple'>difference</span> for others.
                     </h2>
