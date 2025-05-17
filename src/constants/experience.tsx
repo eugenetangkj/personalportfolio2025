@@ -1,4 +1,4 @@
-import { Employment } from "@/types/Employment";
+import { Employment, Research } from "@/types/Experience";
 
 export const WorkExperiences: Employment[] = [
     {
@@ -59,5 +59,21 @@ export const WorkExperiences: Employment[] = [
             }
         ],
         technologies: ['Flutter', 'PHP Laravel', 'Voyager', 'HTML', 'CSS', 'JavaScript', 'MySQL', 'Figma']
+    }
+]
+
+export const ResearchExperiences: Research[] = [
+    {
+        role: 'Lab Member',
+        lab: 'AI For Social Good Lab (AI4SG)',
+        date: 'Aug 2024 - Present',
+        contributions: "As a Human-Computer Interaction (HCI) researcher at the AI4SG Lab, my current research focuses on exploring how technology can support AI literacy education among older adults. I'm particularly interested in human-agent interaction paradigms and how technology can be designed to enhance educational experiences for diverse populations.",
+        resources:[
+            {
+                label: 'AI Literacy Education for Older Adults: Motivations, Challenges and Preferences (CHI 25 Extended Abstract)',
+                link: 'https://dl.acm.org/doi/10.1145/3706599.3720033',
+            },
+        ],
+        technologies: ['HCI Research']
     }
 ]
