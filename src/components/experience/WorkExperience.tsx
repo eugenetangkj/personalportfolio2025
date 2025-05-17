@@ -20,17 +20,17 @@ export default function WorkExperience() {
 
                                 <div className='flex flex-col space-y-2'>
                                     {/* Role */}
-                                    <h5 className='font-semibold text-2xl'>{ workExperience.role }</h5>
+                                    <h5 className='font-semibold text-xl md:text-2xl'>{ workExperience.role }</h5>
 
                                     {/* Company and date */}
-                                    <div className="flex flex-row justify-between items-center text-xl text-portfolio-black font-semibold">
+                                    <div className="flex flex-row justify-between items-center sm:text-lg md:text-xl text-portfolio-black font-semibold">
                                         <h6>{ workExperience.company }</h6>
                                         <h6>{ workExperience.date }</h6>
                                     </div>
                                 </div>
 
                                 {/* Contributions */}
-                                <ul className='text-gray-700 list-disc pl-5 space-y-2 text-lg'>
+                                <ul className='text-gray-700 list-disc pl-5 space-y-2 md:text-lg'>
                                     {
                                         workExperience.contributions.map((contribution, index) => (
                                             <li key={ index }>{ contribution }</li>
@@ -58,12 +58,8 @@ export default function WorkExperience() {
                                     }
                                 </div>
 
-
-                              
-
-
                                 {/* Horizontal line */}
-                                <div className="hidden md:block col-span-1 h-px bg-gray-300 w-full my-4" />
+                                <div className="block col-span-1 h-px bg-gray-300 w-full my-4" />
                             
                             </div>
                         ))

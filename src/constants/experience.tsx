@@ -17,7 +17,7 @@ export const WorkExperiences: Employment[] = [
                 link: 'https://drive.google.com/file/d/1tMPGxFwSK8lV63CvYSF3Mp8Wp2MaWcDJ/view?usp=sharing'
             }
         ],
-        technologies: ['Python', 'pandas']
+        technologies: ['Python']
     },
     {
         role: 'Information Technology Developer Intern',
