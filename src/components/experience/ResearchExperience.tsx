@@ -23,7 +23,7 @@ export default function ResearchExperience() {
                                     <h5 className='font-semibold text-xl md:text-2xl'>{ researchExperience.role }</h5>
 
                                     {/* Lab and date */}
-                                    <div className="flex flex-row justify-between items-center sm:text-lg md:text-xl text-portfolio-black font-semibold">
+                                    <div className="flex flex-row justify-between items-center sm:text-base md:text-lg text-portfolio-black font-semibold">
                                         <h6>{ researchExperience.lab }</h6>
                                         <h6>{ researchExperience.date }</h6>
                                     </div>

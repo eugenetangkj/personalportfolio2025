@@ -26,3 +26,11 @@ export interface Teaching {
     resources: Resource[],
     technologies: string[]
 }
+
+export interface Volunteering {
+    role: string,
+    organisation: string,
+    date: string,
+    contributions: string,
+    resources: Resource[],
+}

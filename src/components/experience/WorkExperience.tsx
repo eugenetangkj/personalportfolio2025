@@ -23,7 +23,7 @@ export default function WorkExperience() {
                                     <h5 className='font-semibold text-xl md:text-2xl'>{ workExperience.role }</h5>
 
                                     {/* Company and date */}
-                                    <div className="flex flex-row justify-between items-center sm:text-lg md:text-xl text-portfolio-black font-semibold">
+                                    <div className="flex flex-row justify-between items-center sm:text-base md:text-lg text-portfolio-black font-semibold">
                                         <h6>{ workExperience.company }</h6>
                                         <h6>{ workExperience.date }</h6>
                                     </div>

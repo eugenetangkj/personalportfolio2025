@@ -6,15 +6,15 @@ This component represents the About Me section of the landing page.
 */
 export default function AboutMe() {
     return (
-        <section className='lg:mt-16 flex flex-col-reverse gap-y-12 lg:grid lg:grid-cols-3 lg:gap-x-12 lg:items-center'>
+        <section className='lg:mt-16 flex flex-col-reverse gap-y-12 lg:grid lg:grid-cols-5 lg:gap-x-12 lg:items-center'>
              {/* Image */}
-             <div className='lg:col-span-1 self-center'>
+             <div className='lg:col-span-2 self-center'>
                 <Image src='/images/aboutMe/EugeneTang.png' alt='Eugene Tang' width={858} height={836} className='rounded-xl self-center w-[293px] h-[286px] sm:w-[337px] sm:h-[328px] lg:w-auto lg:h-auto' />
             </div>
 
             
             {/* Title and text */}
-            <div className='lg:col-span-2 flex flex-col space-y-8'>
+            <div className='lg:col-span-3 flex flex-col space-y-8'>
                 <div className='flex flex-col space-y-4'>
                     <h4 className='col-span-1 md:col-span-2 text-gray-700 text-xl sm:text-2xl text-center md:text-left'>About Me</h4>
                     <h2 className='font-inter text-4xl md:text-5xl lg:text-6xl text-portfolioblack font-bold text-center md:text-left'>

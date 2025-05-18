@@ -1,4 +1,4 @@
-import { Employment, Research, Teaching } from "@/types/Experience";
+import { Employment, Research, Teaching, Volunteering } from "@/types/Experience";
 
 export const WorkExperiences: Employment[] = [
     {
@@ -95,4 +95,80 @@ export const TeachingExperiences: Teaching[] = [
         resources: [],
         technologies: ['Unity', 'SWE Practices']
     }
+]
+
+export const VolunteeringExperiences: Volunteering[] = [
+    {
+        role: 'Volunteer',
+        organisation: 'Paint-A-Home XXIV @ Hougang',
+        date: 'Jul 2024',
+        contributions: 'I participated in a community initiative to repaint residential flats, contributing to efforts to improve the living conditions and well-being of residents.',
+        resources: [],
+    },
+    {
+        role: 'Facilitator',
+        organisation: 'Muscular Dystrophy Association (Singapore)',
+        date: 'Jun 2024',
+        contributions: 'I served as a facilitator for an overnight camp organised for children, where I supported and encouraged their participation in activities and provided care throughout the camp.',
+        resources: [],
+    },
+    {
+        role: 'Organiser',
+        organisation: 'Family Central',
+        date: 'Dec 2023 - Feb 2024',
+        contributions: 'I designed and facilitated a workshop on Google Gemini for 80 older adults, introducing the concept of generative AI and demonstrating practical ways to use Google Gemini in their daily lives.',
+        resources: [
+            {
+                label: 'Affirmation Letter',
+                link: 'https://drive.google.com/file/d/13IGEfFVbVcrnagc7MOQgUgafsFGSEgLC/view?usp=sharing'
+            },
+            {
+                label: 'Workshop Slides',
+                link: 'https://www.canva.com/design/DAF4DHh6mOQ/RN-F0iLIKVB3h6P2N9cNiw/edit?utm_content=DAF4DHh6mOQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
+            }
+        ],
+    },
+    {
+        role: 'Mentor',
+        organisation: 'CampusImpact',
+        date: 'Oct 2022 - Dec 2022',
+        contributions: 'I planned and conducted academic and enrichment activities for a Primary 4 student, offering academic support and designing hands-on science experiments to enhance learning.',
+        resources: []
+    },
+    {
+        role: 'Member',
+        organisation: 'Work Live Digital',
+        date: 'Dec 2021 - Aug 2024',
+        contributions: 'I curated educational booklets on basic computer usage, facilitated computer classes for older adults, and developed a website for Work Live Digital to support their digital literacy efforts.',
+        resources: [
+            {
+                label: 'Testimonial',
+                link: 'https://drive.google.com/file/d/1hnbdK8j_4VImj4CtSWZ8KdhNHdRmolDc/view?usp=sharing'
+            }
+        ]
+    },
+    {
+        role: 'Tutor',
+        organisation: 'CDAC Singapore',
+        date: 'Feb 2020 - Oct 2020',
+        contributions: 'I provided academic support in Mathematics and Science to a Primary 6 student, helping to strengthen subject understanding and learning confidence.',
+        resources: []
+    },
+    {
+        role: 'Organiser',
+        organisation: 'Prison Fellowship Singapore',
+        date: 'Mar 2017 - Jun 2018',
+        contributions: 'I led a team of five to provide weekly tuition support and organize enrichment activities for beneficiaries. We successfully fundraised $143.90 by selling self-baked biscuits decorated by the beneficiaries.',
+        resources: [
+            {
+                label: 'Testimonial',
+                link: 'https://drive.google.com/file/d/1gxwjOfSOZyAQnCoEh3Fh7czIlcuQVuUx/view?usp=sharing'
+            }
+        ]
+    }
+
+
+
+
+
 ]
