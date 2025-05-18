@@ -2,6 +2,7 @@ import AboutMe from "@/components/AboutMe";
 import CursorFollower from "@/components/common/CursorFollower";
 import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
           <Hero />
           <AboutMe />
           <Experience />
-          <AboutMe />
+          <Projects />
       </div>
     </>
       
