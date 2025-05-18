@@ -1,4 +1,4 @@
-import { Employment, Research } from "@/types/Experience";
+import { Employment, Research, Teaching } from "@/types/Experience";
 
 export const WorkExperiences: Employment[] = [
     {
@@ -75,5 +75,24 @@ export const ResearchExperiences: Research[] = [
             },
         ],
         technologies: ['HCI Research']
+    }
+]
+
+export const TeachingExperiences: Teaching[] = [
+    {
+        role: 'Teaching Assistant',
+        course: 'CS4218 Software Testing',
+        date: 'Jan 2025 - May 2025',
+        contributions: 'I assisted in grading coursework for 150 students, enhanced course materials, including tutorial questions and lecture slides, and actively supported student learning by responding to queries.',
+        resources: [],
+        technologies: ['Jest', 'Playwright', 'JMeter']
+    },
+    {
+        role: 'Advisor',
+        course: 'CP2106 Independent Software Development Project (Orbital)',
+        date: 'May 2023 - Aug 2023',
+        contributions: 'I mentored 11 teams of Year 1 undergraduates over a 3-month software engineering project. I provided both guidance and technical know-how, enabling all teams to successfully complete the programme with 3 teams achieved Artemis (Extreme), the highest level of distinction. In recognition of my contributions, I was honoured with the Best Advisor Award.',
+        resources: [],
+        technologies: ['Unity', 'SWE Practices']
     }
 ]

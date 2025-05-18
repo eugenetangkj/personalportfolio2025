@@ -1,4 +1,5 @@
 import ResearchExperience from "./experience/ResearchExperience";
+import TeachingExperience from "./experience/TeachingExperience";
 import WorkExperience from "./experience/WorkExperience";
 
 
@@ -22,7 +23,8 @@ export default function Experience() {
                 {/* Research experience */}
                 <ResearchExperience />
 
-                <ResearchExperience />
+                {/* Teaching experience */}
+                <TeachingExperience />
 
                 {/* TODO: Teaching experience and volunteering experience */}
                 

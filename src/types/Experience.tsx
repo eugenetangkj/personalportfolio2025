@@ -17,3 +17,12 @@ export interface Research {
     resources: Resource[],
     technologies: string[],
 }
+
+export interface Teaching {
+    role: string,
+    course: string,
+    date: string,
+    contributions: string,
+    resources: Resource[],
+    technologies: string[]
+}
