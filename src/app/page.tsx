@@ -6,7 +6,7 @@ import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
-    <div className='flex flex-col space-y-24 justify-start items-center custom-margin'>
+    <div className='flex flex-col space-y-24 justify-center items-center custom-margin'>
         <Hero />
         {/* <AboutMe />
         <Experience />

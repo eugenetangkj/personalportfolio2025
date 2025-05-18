@@ -8,19 +8,17 @@ This component represents the Hero section of the landing page.
 export default function Hero() {
 
     return (
-        <section className="mt-64 flex flex-col items-center justify-center space-y-12 relative">
+        <section className="flex flex-col items-center justify-center space-y-12 relative pt-48">
 
             {/* Coloured circles */}
-            <div className="absolute w-[300px] h-[300px] rounded-full bg-[#fcd5ce] blur-2xl animate-sequenced pointer-events-none"
+            <div className="bg-[#fcd5ce] animate-sequenced coloured-circle top-[30%] left-[0%] sm:top-[40%] sm:left-[10%]"
                 style={{
-                    top: '30%',
-                    left: '10%',
                     transform: 'translate(20%, -50%)',
                     animationDelay: '2s',
                 }}
             />
             
-            <div className="absolute w-[300px] h-[300px] rounded-full bg-[#CFE8FA] blur-2xl animate-sequenced pointer-events-none"
+            <div className="bg-[#CFE8FA] animate-sequenced coloured-circle top-[60%] left-[20%] sm:top-[70%] sm:left-[35%]"
                 style={{
                     top: '70%',
                     left: '35%',
@@ -30,17 +28,17 @@ export default function Hero() {
             />
 
             {/* Title */}
-            <h1 className="font-playfair-display text-5xl text-zinc-900">Hi, I am Eugene.</h1>
+            <h1 className="text-h1-heading text-center">Hi, I am Eugene.</h1>
 
             {/* Subtitle */}
-            <h2 className="text-zinc-500 font-lato text-2xl w-1/2 text-center">Building meaningful, human-centered digital experiences through code and design</h2>
+            <h2 className="text-h2-heading sm:w-3/4 text-center">Building meaningful, human-centered digital experiences through code and design</h2>
 
             {/* Contact and resume */}
-            <div className="flex flex-row justify-center items-center font-lato space-x-8">
-                <button className="bg-stone-800 hover:bg-stone-700 text-white cursor-pointer rounded-full text-lg px-6 py-3 font-lato duration-200">
+            <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
+                <button className="button-dark">
                     <Link href="#">Let&apos;s Connect</Link>
                 </button>
-                <button className="bg-white hover:bg-stone-100 text-zinc-600 cursor-pointer rounded-full text-lg px-6 py-3 font-lato duration-200 border-2">
+                <button className="button-light">
                     <Link href="#">View Resume</Link>
                 </button>
             </div>
