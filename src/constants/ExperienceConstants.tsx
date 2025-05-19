@@ -89,9 +89,9 @@ export const TeachingExperiences: Teaching[] = [
     },
     {
         role: 'Advisor',
-        course: 'CP2106 Independent Software Development Project (Orbital)',
+        course: 'CP2106 Independent Software Development Project',
         date: 'May 2023 - Aug 2023',
-        contributions: 'I mentored 11 teams of Year 1 undergraduates over a 3-month software engineering project. I provided both guidance and technical know-how, enabling all teams to successfully complete the programme with 3 teams achieved Artemis (Extreme), the highest level of distinction. In recognition of my contributions, I was honoured with the Best Advisor Award.',
+        contributions: 'I mentored 11 teams of Year 1 undergraduates over a 3-month software engineering project. I enabled all teams to successfully complete the programme with 3 teams achieving Artemis (Extreme), the highest level of distinction. In recognition of my contributions, I was honoured with the Best Advisor Award.',
         resources: [],
         technologies: ['Unity', 'SWE Practices']
     }

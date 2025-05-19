@@ -4,6 +4,8 @@ import Experience from "@/components/Experience";
 import Hero from "@/components/pages/Hero";
 import Projects from "@/components/Projects";
 import WorkExperience from "@/components/pages/WorkExperience";
+import ResearchExperience from "@/components/pages/ResearchExperience";
+import TeachingExperience from "@/components/pages/TeachingExperience";
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
         <Hero />
         <AboutMe />
         <WorkExperience />
+        <ResearchExperience />
+        <TeachingExperience />
         {/* <AboutMe />
         <Experience />
         <Projects /> */}
