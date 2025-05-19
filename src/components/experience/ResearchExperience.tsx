@@ -1,4 +1,4 @@
-import { ResearchExperiences } from "@/constants/experience";
+import { ResearchExperiences } from "@/constants/ExperienceConstants";
 import Link from "next/link";
 import { Link as LinkIcon } from "lucide-react";
 

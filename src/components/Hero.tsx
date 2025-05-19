@@ -1,4 +1,4 @@
-import { SOCIAL_MEDIA_LINKS } from "@/constants/navigation";
+import { SOCIAL_MEDIA_LINKS } from "@/constants/NavigationConstants";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 

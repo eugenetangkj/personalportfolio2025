@@ -47,9 +47,23 @@
 @theme {
   /* Colours */
   --color-portfolioblack: #030712;
-  --color-portfoliopurple: #7862DA;
   --color-portfolio-darkpurple: #200F2A;
   --color-portfolio-background: #FEF7F0;
+
+  --color-portfolio-lightblue: #B1CDDE;
+  --color-portfolio-blue: #CBE6F7;
+  --color-portfolio-darkblue: #3F6C88;
+
+  --color-portfolio-lightpurple: #CFC3DD;
+  --color-portfolio-purple: #E7E0EB;
+  --color-portfolio-darkpurple: #603F88;
+
+  --color-portfolio-lightorange: #E4C6AA;
+  --color-portfolio-orange: #FAE5D1;
+  --color-portfolio-darkorange: #CA763A;
+
+  
+
 
 
   /* Heights */
@@ -145,9 +159,10 @@
   animation: fadeInOut 12s linear infinite both;
 }
 
+
 @layer utilities {
   .custom-margin {
-    @apply px-8 sm:px-16 lg:px-24 2xl:px-64;
+    @apply px-8 sm:px-16 lg:px-36 2xl:px-96;
   }
 
   .coloured-circle {
@@ -157,9 +172,22 @@
   .text-h1-heading {
     @apply text-4xl sm:text-5xl text-zinc-900 font-playfair-display
   }
-
+  
   .text-h2-heading {
+    @apply text-zinc-700 text-3xl sm:text-4xl 
+  }
+
+  .text-h4-heading {
     @apply text-zinc-500 text-xl sm:text-2xl font-lato
+  }
+
+  .text-paragraph {
+    @apply text-lg sm:text-xl text-zinc-500 font-lato leading-8
+  }
+
+  .text-subparagraph {
+    @apply text-zinc-600 font-lato leading-7 sm:text-lg
+
   }
 
   .button-dark {
@@ -168,5 +196,9 @@
 
   .button-light {
     @apply bg-white hover:bg-stone-100 text-zinc-600 cursor-pointer rounded-full sm:text-lg px-6 py-3 font-lato duration-200 border-2
+  }
+
+  .card-faint-text {
+    @apply text-6xl sm:text-7xl font-light opacity-80 py-4 md:py-8
   }
 }
