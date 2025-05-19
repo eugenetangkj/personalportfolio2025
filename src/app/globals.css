@@ -200,13 +200,16 @@
   .text-small {
     @apply text-zinc-500 font-lato leading-7 text-base
   }
+  .text-extra-small {
+    @apply text-zinc-500 font-lato leading-7 text-sm
+  }
 
   .button-dark {
-    @apply bg-stone-800 hover:bg-stone-700 text-white cursor-pointer font-lato rounded-full sm:text-lg px-6 py-3 duration-200
+    @apply bg-stone-800 hover:bg-stone-700 text-white cursor-pointer font-lato rounded-full sm:text-lg px-6 py-3 duration-200 shadow-lg
   }
 
   .button-light {
-    @apply bg-white hover:bg-stone-100 text-zinc-600 cursor-pointer rounded-full sm:text-lg px-6 py-3 font-lato duration-200 border-2
+    @apply bg-white hover:bg-stone-100 text-zinc-600 cursor-pointer rounded-full sm:text-lg px-6 py-3 font-lato duration-200 shadow-lg
   }
 
   .card-faint-text {

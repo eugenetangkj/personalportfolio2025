@@ -2,7 +2,7 @@ import AboutMe from "@/components/pages/AboutMe";
 import CursorFollower from "@/components/common/CursorFollower";
 import Experience from "@/components/Experience";
 import Hero from "@/components/pages/Hero";
-import Projects from "@/components/Projects";
+import Projects from "@/components/pages/Projects";
 import WorkExperience from "@/components/pages/WorkExperience";
 import ResearchExperience from "@/components/pages/ResearchExperience";
 import TeachingExperience from "@/components/pages/TeachingExperience";
@@ -15,6 +15,8 @@ export default function Home() {
         <WorkExperience />
         <ResearchExperience />
         <TeachingExperience />
+        <Projects />
+        <Hero />
         {/* <AboutMe />
         <Experience />
         <Projects /> */}
