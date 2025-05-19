@@ -4,15 +4,15 @@ import { SocialMediaLink } from "@/types/SocialMediaLink";
 export const NAVBAR_DESKTOP_LINKS: NavbarDesktopLink[] = [
     {
         label: 'About Me',
-        path: '#aboutMe'
+        path: '#about-me'
     },
     {
-        label: 'My Experiences',
-        path: '#myExperiences'
+        label: 'Experiences',
+        path: '#experiences'
     },
     {
-        label: 'My Projects',
-        path: '#myProjects'
+        label: 'Projects',
+        path: '#my-projects'
     },
 ]
 

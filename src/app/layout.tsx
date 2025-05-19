@@ -23,8 +23,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
     return (
         <html lang="en" className='scroll-smooth'>
-            <body className={`${playFairDisplayFont.variable} ${latoFont.variable} antialiased tracking-tight`}>
-                
+            <body className={`${playFairDisplayFont.variable} ${latoFont.variable} antialiased tracking-tight bg-portfolio-background`}>
+                <Navbar />
                 {children}
             </body>
         </html>

@@ -16,14 +16,14 @@ export default function Hero() {
                 className="bg-[#fcd5ce] animate-sequenced coloured-circle top-[30%] left-[0%] sm:top-[40%] sm:left-[10%]"
                 style={{
                 transform: 'translate(20%, -50%)',
-                animationDelay: '2s',
+                animationDelay: '1s',
                 }}
             />
             <div
                 className="bg-[#CFE8FA] animate-sequenced coloured-circle top-[40%] left-[25%] sm:top-[45%] sm:left-[35%]"
                 style={{
                 transform: 'translate(20%, -50%)',
-                animationDelay: '4s',
+                animationDelay: '3s',
                 }}
             />
 
