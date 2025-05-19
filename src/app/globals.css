@@ -49,7 +49,7 @@
   --color-portfolioblack: #030712;
   --color-portfoliopurple: #7862DA;
   --color-portfolio-darkpurple: #200F2A;
-  --color-portfolio-background: #FFFBF7;
+  --color-portfolio-background: #FEF7F0;
 
 
   /* Heights */
@@ -144,7 +144,6 @@
   opacity: 0;
   animation: fadeInOut 12s linear infinite both;
 }
-
 
 @layer utilities {
   .custom-margin {
