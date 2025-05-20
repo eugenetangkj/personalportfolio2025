@@ -54,7 +54,11 @@ export default function TeachingExperience() {
                                 </div>
 
                                 {/* Horizontal line */}
-                                <div className="block col-span-1 h-px bg-gray-300 w-full my-4" />
+                                {
+                                    index !== TeachingExperiences.length - 1 &&
+                                    <div className="block col-span-1 h-px bg-gray-300 w-full my-4" />
+                                }
+                                
                             
                             </div>
                         ))

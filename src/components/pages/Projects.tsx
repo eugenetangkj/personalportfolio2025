@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Link as LinkIcon } from "lucide-react";
-import { FullProjectsList, ProjectsList } from "@/constants/ProjectConstants";
+import { ProjectsList } from "@/constants/ProjectConstants";
 import Image from "next/image";
 
 

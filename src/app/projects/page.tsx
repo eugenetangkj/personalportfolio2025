@@ -10,7 +10,7 @@ export default function ProjectsPage() {
         <section className='flex flex-col gap-y-8 self-start mt-28 sm:mt-36'>
 
        
-                <Link href='/' className='flex flex-row items-center space-x-4'>
+                <Link href='/#projects' className='flex flex-row items-center space-x-4'>
                     <ArrowLeft className='text-zinc-500' />
                     <h6 className='text-small'>Go Back</h6>
                 </Link>

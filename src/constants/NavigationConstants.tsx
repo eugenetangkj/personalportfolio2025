@@ -14,6 +14,10 @@ export const NAVBAR_DESKTOP_LINKS: NavbarDesktopLink[] = [
         label: 'Projects',
         path: '/#projects'
     },
+    {
+        label: 'Volunteering',
+        path: '/#volunteering'
+    }
 ]
 
 export const SOCIAL_MEDIA_LINKS: SocialMediaLink[] = [
