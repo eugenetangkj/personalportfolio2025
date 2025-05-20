@@ -7,6 +7,7 @@ import WorkExperience from "@/components/pages/WorkExperience";
 import ResearchExperience from "@/components/pages/ResearchExperience";
 import TeachingExperience from "@/components/pages/TeachingExperience";
 import Volunteering from "@/components/pages/Volunteering";
+import Awards from "@/components/pages/Awards";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <TeachingExperience />
         <Projects />
         <Volunteering />
+        <Awards />
         {/* <AboutMe />
         <Experience />
         <Projects /> */}

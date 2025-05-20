@@ -14,7 +14,7 @@ const numberOfItemsToShow = 5
 export default function Volunteering() {
     // Controls how many items are shown
     const [showAll, setShowAll] = useState(false);
-    const visibleCount = showAll ? VolunteeringExperiences.length : 5
+    const visibleCount = showAll ? VolunteeringExperiences.length : numberOfItemsToShow
 
     return (
         <section className='flex flex-col gap-y-8 self-start' id='volunteering'>

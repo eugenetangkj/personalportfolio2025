@@ -26,7 +26,7 @@ export default function Navbar() {
             <div className='hidden md:flex justify-center items-center space-x-8 lg:space-x-12 xl:space-x-16'>
                 {
                     NAVBAR_DESKTOP_LINKS.map((navbarDesktopLink, index) => (
-                        <Link key={ index } href={ navbarDesktopLink.path } className='text-small hover:text-zinc-400 duration-200'>{ navbarDesktopLink.label }</Link>
+                        <Link key={ index } href={ navbarDesktopLink.path } className='text-small hover:text-zinc-400 duration-200 whitespace-nowrap shrink-0'>{ navbarDesktopLink.label }</Link>
                     ))
                 }
             </div>

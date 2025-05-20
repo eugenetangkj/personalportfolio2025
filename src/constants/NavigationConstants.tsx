@@ -17,6 +17,10 @@ export const NAVBAR_DESKTOP_LINKS: NavbarDesktopLink[] = [
     {
         label: 'Volunteering',
         path: '/#volunteering'
+    },
+    {
+        label: 'Awards',
+        path: '/#awards'
     }
 ]
 
