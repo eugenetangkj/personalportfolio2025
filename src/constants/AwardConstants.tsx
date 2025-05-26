@@ -22,7 +22,7 @@ export const AwardsList: Award[] = [
         date: 'Jun 2024',
     },
     {
-        name: "Dean's List for AY2023/2024 Semester 1",
+        name: "Dean's List for AY23/24 Semester 1",
         affliation: 'NUS Coursework',
         date: 'Jan 2024',
     },

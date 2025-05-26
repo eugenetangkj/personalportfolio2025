@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Lato, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/common/Navbar";
+import Footer from "@/components/common/Footer";
 
 const playFairDisplayFont = Playfair_Display({
   variable: "--font-playfair-display",
@@ -26,6 +27,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
             <body className={`${playFairDisplayFont.variable} ${latoFont.variable} antialiased tracking-tight bg-portfolio-background`}>
                 <Navbar />
                 {children}
+                <Footer />
             </body>
         </html>
   );

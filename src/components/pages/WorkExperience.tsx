@@ -8,7 +8,7 @@ This component represents the work experience section of the landing page.
 */
 export default function WorkExperience() {
     return (
-        <section className='flex flex-col gap-y-8' id='experience'>
+        <section className='flex flex-col gap-y-8' id='experiences'>
             <h2 className='text-h2-heading'>Work Experience</h2>
 
             <div className=''>

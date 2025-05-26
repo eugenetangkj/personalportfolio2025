@@ -36,7 +36,7 @@ export default function Hero() {
 
                 <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
                 <button className="button-dark">
-                    <Link href="#">Let&apos;s Connect</Link>
+                    <Link href="https://www.linkedin.com/in/eugenetangkj" target='_blank'>Let&apos;s Connect</Link>
                 </button>
                 <button className="button-light">
                     <Link href="#">View Resume</Link>

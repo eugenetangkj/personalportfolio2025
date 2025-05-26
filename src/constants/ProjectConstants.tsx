@@ -84,7 +84,7 @@ export const ProjectsList: Project[] = [
                 link: 'https://drive.google.com/file/d/1FGqIKk6Bs9N6xLL4YPxFLb2dhNYuqj_D/view?usp=sharing'
             }, 
         ],
-        technologies: ['Next.JS', 'Figma'],
+        technologies: ['Next.JS', 'TailwindCSS', 'Figma'],
         image: '/images/projects/cel.png'
     },
     {
@@ -198,7 +198,7 @@ export const FullProjectsList: Project[] = [
                 link: 'https://drive.google.com/file/d/1FGqIKk6Bs9N6xLL4YPxFLb2dhNYuqj_D/view?usp=sharing'
             }, 
         ],
-        technologies: ['Next.JS', 'Figma'],
+        technologies: ['Next.JS', 'TailwindCSS', 'Figma'],
         image: '/images/projects/cel.png'
     },
     {

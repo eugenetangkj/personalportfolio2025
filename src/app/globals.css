@@ -213,6 +213,6 @@
   }
 
   .card-faint-text {
-    @apply text-6xl sm:text-7xl font-light opacity-80 py-4 md:py-8
+    @apply text-6xl xl:text-7xl font-light opacity-80 py-4 md:py-8
   }
 }

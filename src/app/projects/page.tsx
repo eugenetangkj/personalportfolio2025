@@ -6,7 +6,7 @@ import { LinkIcon, ArrowLeft } from "lucide-react";
 // Page for all projects page
 export default function ProjectsPage() {
   return (
-    <div className='flex flex-col space-y-24 justify-center items-center custom-margin'>
+    <div className='flex flex-col space-y-24 justify-center items-center custom-margin mb-24'>
         <section className='flex flex-col gap-y-8 self-start mt-28 sm:mt-36'>
 
        
