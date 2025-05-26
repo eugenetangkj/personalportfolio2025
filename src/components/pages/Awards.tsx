@@ -1,7 +1,5 @@
 "use client"
 
-import Link from "next/link";
-import { Link as LinkIcon } from "lucide-react";
 import { useState } from "react";
 import { AwardsList } from "@/constants/AwardConstants";
 

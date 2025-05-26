@@ -1,7 +1,4 @@
 import { TeachingExperiences } from "@/constants/ExperienceConstants";
-import Link from "next/link";
-import { Link as LinkIcon } from "lucide-react";
-
 
 /**
 This component represents the teaching experience section of the landing page. It is a subcomponent of the experience section.

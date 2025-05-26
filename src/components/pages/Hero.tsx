@@ -1,7 +1,7 @@
 
 
 import Link from "next/link";
-import { ChevronDown, MoveDown } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 
 /**
 This component represents the Hero section of the landing page.

@@ -1,8 +1,4 @@
 import Link from "next/link";
-import { NAVBAR_DESKTOP_LINKS, SOCIAL_MEDIA_LINKS } from "@/constants/NavigationConstants";
-import { Menu, ArrowUpRight } from "lucide-react";
-import { Sheet, SheetHeader, SheetTitle, SheetTrigger, SheetContent } from "@/components/ui/sheet";
-import { House } from "lucide-react";
 
 /**
 This component represents the footer shared across pages
@@ -14,7 +10,7 @@ export default function Footer() {
                 {/* Get in touch */}
                  <div className='flex flex-col space-y-8 items-center md:items-start'>
                     <h1 className='text-h1-heading !text-white text-center md:text-start'>Want to Work Together?</h1>
-                    <h3 className='text-h3-heading !text-white !font-playfair-display text-center md:text-start'>Let's get in touch.</h3>
+                    <h3 className='text-h3-heading !text-white !font-playfair-display text-center md:text-start'>Let&apos;s get in touch.</h3>
                 </div>
 
                 {/* Social Links */}

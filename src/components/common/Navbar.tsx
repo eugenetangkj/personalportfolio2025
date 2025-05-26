@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { NAVBAR_DESKTOP_LINKS, SOCIAL_MEDIA_LINKS } from "@/constants/NavigationConstants";
-import { Menu, ArrowUpRight } from "lucide-react";
+import { NAVBAR_DESKTOP_LINKS } from "@/constants/NavigationConstants";
+import { Menu } from "lucide-react";
 import { Sheet, SheetHeader, SheetTitle, SheetTrigger, SheetContent } from "@/components/ui/sheet";
 import { House } from "lucide-react";
 
