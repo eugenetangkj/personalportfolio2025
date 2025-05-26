@@ -1,4 +1,4 @@
-import { VolunteeringExperiences } from "@/constants/experience";
+import { VolunteeringExperiences } from "@/constants/ExperienceConstants";
 import Link from "next/link";
 import { Link as LinkIcon } from "lucide-react";
 

@@ -32,5 +32,6 @@ export interface Volunteering {
     organisation: string,
     date: string,
     contributions: string,
+    summary: string,
     resources: Resource[],
 }

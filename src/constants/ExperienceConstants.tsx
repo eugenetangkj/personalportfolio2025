@@ -89,9 +89,9 @@ export const TeachingExperiences: Teaching[] = [
     },
     {
         role: 'Advisor',
-        course: 'CP2106 Independent Software Development Project (Orbital)',
+        course: 'CP2106 Independent Software Development Project',
         date: 'May 2023 - Aug 2023',
-        contributions: 'I mentored 11 teams of Year 1 undergraduates over a 3-month software engineering project. I provided both guidance and technical know-how, enabling all teams to successfully complete the programme with 3 teams achieved Artemis (Extreme), the highest level of distinction. In recognition of my contributions, I was honoured with the Best Advisor Award.',
+        contributions: 'I mentored 11 teams of Year 1 undergraduates over a 3-month software engineering project. I enabled all teams to successfully complete the programme with 3 teams achieving Artemis (Extreme), the highest level of distinction. In recognition of my contributions, I was honoured with the Best Advisor Award.',
         resources: [],
         technologies: ['Unity', 'SWE Practices']
     }
@@ -103,6 +103,7 @@ export const VolunteeringExperiences: Volunteering[] = [
         organisation: 'Paint-A-Home XXIV @ Hougang',
         date: 'Jul 2024',
         contributions: 'I participated in a community initiative to repaint residential flats, contributing to efforts to improve the living conditions and well-being of residents.',
+        summary: 'Repainted a residential flat for Paint-A-Home XXIV @ Hougang.',
         resources: [],
     },
     {
@@ -110,6 +111,7 @@ export const VolunteeringExperiences: Volunteering[] = [
         organisation: 'Muscular Dystrophy Association (Singapore)',
         date: 'Jun 2024',
         contributions: 'I served as a facilitator for an overnight camp organised for children, where I supported and encouraged their participation in activities and provided care throughout the camp.',
+        summary: 'Faciliated an overnight camp organised for children.',
         resources: [],
     },
     {
@@ -117,6 +119,7 @@ export const VolunteeringExperiences: Volunteering[] = [
         organisation: 'Family Central',
         date: 'Dec 2023 - Feb 2024',
         contributions: 'I designed and facilitated a workshop on Google Gemini for 80 older adults, introducing the concept of generative AI and demonstrating practical ways to use Google Gemini in their daily lives.',
+        summary: 'Designed and faciliated a workshop on Google Gemini for 80 older adults.',
         resources: [
             {
                 label: 'Affirmation Letter',
@@ -133,6 +136,7 @@ export const VolunteeringExperiences: Volunteering[] = [
         organisation: 'CampusImpact',
         date: 'Oct 2022 - Dec 2022',
         contributions: 'I planned and conducted academic and enrichment activities for a Primary 4 student, offering academic support and designing hands-on science experiments to enhance learning.',
+        summary: 'Planned and conducted academic and enrichment activities for a Primary 4 student.',
         resources: []
     },
     {
@@ -140,6 +144,7 @@ export const VolunteeringExperiences: Volunteering[] = [
         organisation: 'Work Live Digital',
         date: 'Dec 2021 - Aug 2024',
         contributions: 'I curated educational booklets on basic computer usage, facilitated computer classes for older adults, and developed a website for Work Live Digital to support their digital literacy efforts.',
+        summary: 'Curated educational booklets on basic computer usage, faciliated computer classes for older adults, and developed a website for Work Live Digital.',
         resources: [
             {
                 label: 'Testimonial',
@@ -152,6 +157,7 @@ export const VolunteeringExperiences: Volunteering[] = [
         organisation: 'CDAC Singapore',
         date: 'Feb 2020 - Oct 2020',
         contributions: 'I provided academic support in Mathematics and Science to a Primary 6 student, helping to strengthen subject understanding and learning confidence.',
+        summary: 'Provided academic support in Mathematics and Science to a Primary 6 student.',
         resources: []
     },
     {
@@ -159,6 +165,7 @@ export const VolunteeringExperiences: Volunteering[] = [
         organisation: 'Prison Fellowship Singapore',
         date: 'Mar 2017 - Jun 2018',
         contributions: 'I led a team of five to provide weekly tuition support and organize enrichment activities for beneficiaries. We successfully fundraised $143.90 by selling self-baked biscuits decorated by the beneficiaries.',
+        summary: 'Led a team of 5 to provide weekly tuition support and organise enrichment activities.',
         resources: [
             {
                 label: 'Testimonial',

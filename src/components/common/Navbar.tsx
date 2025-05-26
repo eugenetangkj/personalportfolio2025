@@ -1,25 +1,32 @@
 import Link from "next/link";
-import { NAVBAR_DESKTOP_LINKS, SOCIAL_MEDIA_LINKS } from "@/constants/navigation";
+import { NAVBAR_DESKTOP_LINKS, SOCIAL_MEDIA_LINKS } from "@/constants/NavigationConstants";
 import { Menu, ArrowUpRight } from "lucide-react";
 import { Sheet, SheetHeader, SheetTitle, SheetTrigger, SheetContent } from "@/components/ui/sheet";
+import { House } from "lucide-react";
 
 /**
 This component represents the navigation bar shared across pages.
 */
 export default function Navbar() {
     return (
-        <nav className='bg-white text-lg py-8 flex flex-row justify-between items-center max-w-full custom-margin'>
-            {/* Logo */}
-            <div>
-                <h3 className='font-semibold text-portfolioblack text-2xl'>eugenetang<span className='text-portfoliopurple'>kangjie</span></h3>
-            </div>
+        <nav className="fixed md:top-4 left-1/2 transform -translate-x-1/2 z-50 bg-portfolio-background/90 md:bg-white/90 text-lg py-8 md:py-4 px-8 sm:px-16 md:px-6 flex flex-row justify-between items-center md:rounded-xl md:border-1 w-full md:w-fit">
+
+            {/* Home */}
+            <Link href='/'>
+                <House className='text-gray-500 w-6 h-6 md:w-5 md:h-5 hover:text-gray-400 cursor-pointer duration-200' />
+            </Link>
+            
+
+            {/* Vertical bar */}
+            <div className="hidden md:block col-span-1 w-px bg-gray-300 h-[20px] mx-4" />
 
 
-            {/* Desktop menu links */}
-            <div className='hidden md:flex justify-center items-center space-x-16 text-gray-700'>
+
+            {/* Menu links */}
+            <div className='hidden md:flex justify-center items-center space-x-8 lg:space-x-12 xl:space-x-16'>
                 {
                     NAVBAR_DESKTOP_LINKS.map((navbarDesktopLink, index) => (
-                        <Link key={ index } href={ navbarDesktopLink.path } className='hover:text-zinc-500 duration-200'>{ navbarDesktopLink.label }</Link>
+                        <Link key={ index } href={ navbarDesktopLink.path } className='text-small hover:text-zinc-400 duration-200 whitespace-nowrap shrink-0'>{ navbarDesktopLink.label }</Link>
                     ))
                 }
             </div>
@@ -28,47 +35,23 @@ export default function Navbar() {
             <div className='block md:hidden'>
                 <Sheet>
                 <SheetTrigger asChild>
-                    <Menu className='text-portfolioblack hover:text-zinc-500 duration-200 cursor-pointer' />
+                    <Menu className='text-gray-500 w-6 h-6 hover:text-gray-400 cursor-pointer duration-200' />
                 </SheetTrigger>
-                <SheetContent className="w-screen bg-gray-950 text-white p-8">
+                <SheetContent className="w-screen bg-portfolio-background text-white p-8">
                     <SheetHeader>
                         <SheetTitle>
-                            <p className='font-semibold text-white text-2xl'>eugenetang<span className='text-portfoliopurple'>kangjie</span></p>
                         </SheetTitle>
                     </SheetHeader>
 
-                    <div className="h-px bg-gray-800 w-full" />
-                    <div className="flex flex-col justify-start items-start space-y-12 py-8">
+                    <div className="flex flex-col justify-start items-center space-y-16 py-8 text-paragraph mt-16">
                         {
                             NAVBAR_DESKTOP_LINKS.map((navbarDesktopLink, index) => (
-                                <Link key={ index } href={ navbarDesktopLink.path } className='hover:text-zinc-500 duration-200 text-4xl font-bold'>{ navbarDesktopLink.label }</Link>
+                                <Link key={ index } href={ navbarDesktopLink.path } className='text-h5-heading hover:text-zinc-400 duration-200'>{ navbarDesktopLink.label }</Link>
                             ))
                         }
                     </div>
-                    <div className="h-px bg-gray-800 w-full" />
-                    <p className='font-semibold text-gray-600 text-2xl'>Connect with me.</p>
-                    <div className='flex flex-row justify-start items-center gap-4 lg:gap-8 flex-wrap mt-4'>
-                        <Link className='uppercase cursor-pointer flex flex-row items-center justify-start space-x-2 text-white hover:text-zinc-400 duration-200'
-                            href='mailto:eugenetangkangjie@gmail.com'>
-                            <p className='font-medium lg:text-lg'>Email</p>
-                            <ArrowUpRight />
-                        </Link>
+                  
 
-                        {
-                            SOCIAL_MEDIA_LINKS.map((socialMediaLink, index) => (
-                                <Link key={ index } className='uppercase cursor-pointer flex flex-row items-center justify-start space-x-2 text-white hover:text-zinc-400 duration-200'
-                                href={ socialMediaLink.path } target='_blank'>
-                                <p className='font-medium lg:text-lg'>{ socialMediaLink.label }</p>
-                                <ArrowUpRight />
-                            </Link>
-                            ))
-                        }
-                    </div>
-
-
-
-
-                    
                 </SheetContent>
                 </Sheet>
 

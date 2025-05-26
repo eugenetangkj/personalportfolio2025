@@ -6,7 +6,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-inter: var(--font-inter);
+  --font-playfair-display: var(--font-playfair-display);
+  --font-lato: var(--font-lato);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -46,7 +47,23 @@
 @theme {
   /* Colours */
   --color-portfolioblack: #030712;
-  --color-portfoliopurple: #7862DA;
+  --color-portfolio-darkpurple: #200F2A;
+  --color-portfolio-background: #F9F8F5;
+
+  --color-portfolio-lightblue: #B1CDDE;
+  --color-portfolio-blue: #CBE6F7;
+  --color-portfolio-darkblue: #3F6C88;
+
+  --color-portfolio-lightpurple: #CFC3DD;
+  --color-portfolio-purple: #E7E0EB;
+  --color-portfolio-darkpurple: #603F88;
+
+  --color-portfolio-lightorange: #E4C6AA;
+  --color-portfolio-orange: #FAE5D1;
+  --color-portfolio-darkorange: #CA763A;
+
+  
+
 
 
   /* Heights */
@@ -131,8 +148,71 @@
   } 
 }
 
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0; }
+  10%, 50% { opacity: 0.3; }
+  60% { opacity: 0; }
+}
+
+.animate-sequenced {
+  opacity: 0;
+  animation: fadeInOut 12s linear infinite both;
+}
+
+
 @layer utilities {
   .custom-margin {
-    @apply px-8 sm:px-16 lg:px-24 2xl:px-64;
+    @apply px-8 sm:px-16 lg:px-36 2xl:px-96;
+  }
+
+  .coloured-circle {
+    @apply absolute w-48 h-48 sm:w-72 sm:h-72 rounded-full blur-2xl pointer-events-none;
+  }
+
+  .text-h1-heading {
+    @apply text-4xl sm:text-5xl text-zinc-900 font-playfair-display
+  }
+  
+  .text-h2-heading {
+    @apply text-zinc-700 text-3xl sm:text-4xl 
+  }
+
+  .text-h3-heading {
+    @apply text-zinc-700 text-2xl sm:text-3xl font-lato 
+  }
+
+  .text-h4-heading {
+    @apply text-zinc-500 text-xl sm:text-2xl font-lato
+  }
+
+  .text-h5-heading {
+    @apply text-zinc-500 text-lg sm:text-xl font-lato
+  }
+
+  .text-paragraph {
+    @apply text-lg sm:text-xl text-zinc-500 font-lato leading-8
+  }
+
+  .text-subparagraph {
+    @apply text-zinc-600 font-lato leading-7 sm:text-lg
+  }
+
+  .text-small {
+    @apply text-zinc-500 font-lato leading-7 text-base
+  }
+  .text-extra-small {
+    @apply text-zinc-500 font-lato leading-7 text-sm
+  }
+
+  .button-dark {
+    @apply bg-stone-800 hover:bg-stone-700 text-white cursor-pointer font-lato rounded-full sm:text-lg px-6 py-3 duration-200 shadow-lg
+  }
+
+  .button-light {
+    @apply bg-white hover:bg-stone-100 text-zinc-600 cursor-pointer rounded-full sm:text-lg px-6 py-3 font-lato duration-200 shadow-lg
+  }
+
+  .card-faint-text {
+    @apply text-6xl xl:text-7xl font-light opacity-80 py-4 md:py-8
   }
 }
