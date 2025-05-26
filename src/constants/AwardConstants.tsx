@@ -4,7 +4,7 @@ export const AwardsList: Award[] = [
     {
         name: 'Innovative Open-Source Excellence Award, Video and Marketing Excellence Award, and Best Project Award for CS3203 (Platinum)',
         affliation: 'NUS Computing 26th STePS',
-        date: 'Jan 2025',
+        date: 'Apr 2025',
     },
     {
         name: 'Software Engineering Focus Area (Distinction)',
