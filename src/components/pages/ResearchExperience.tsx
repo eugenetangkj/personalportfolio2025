@@ -37,7 +37,7 @@ export default function ResearchExperience() {
                                 <div className='flex flex-row gap-4 items-center flex-wrap'>
                                     {
                                         researchExperience.resources.map((resource, index) => (
-                                            <Link href={ resource.link } key={ index } className='flex flex-row items-center gap-x-2 text-small hover:text-zinc-400 duration-200'>
+                                            <Link href={ resource.link } key={ index } className='flex flex-row items-center gap-x-2 text-small hover:text-zinc-400 duration-200' target='_blank'>
                                                 <LinkIcon className='w-4 h-4 shrink-0' />{ resource.label }
                                             </Link>
                                         ))

@@ -15,7 +15,7 @@ export default function Awards() {
     const visibleCount = showAll ? AwardsList.length : numberOfItemsToShow
 
     return (
-        <section className='flex flex-col gap-y-8 self-start w-full' id='awards'>
+        <section className='flex flex-col gap-y-8 self-start w-full scroll-mt-24' id='awards'>
             <h2 className='text-h2-heading'>Awards</h2>
 
             <div className=''>

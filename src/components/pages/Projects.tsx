@@ -9,7 +9,7 @@ This component represents the projects section of the landing page.
 */
 export default function Projects() {
     return (
-        <section className='flex flex-col gap-y-8 self-start' id='projects'>
+        <section className='flex flex-col gap-y-8 self-start scroll-mt-24' id='projects'>
             <h2 className='text-h2-heading'>Projects</h2>
 
             <div className=''>

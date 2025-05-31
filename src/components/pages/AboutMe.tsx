@@ -6,7 +6,7 @@ This component represents the About Me section of the landing page.
 */
 export default function AboutMe() {
     return (
-        <section className='flex flex-col gap-y-12' id='about-me'>
+        <section className='flex flex-col gap-y-12 scroll-mt-24' id='about-me'>
 
             {/* About me text */}
             <div className='flex flex-col space-y-4'>

@@ -8,7 +8,7 @@ This component represents the work experience section of the landing page.
 */
 export default function WorkExperience() {
     return (
-        <section className='flex flex-col gap-y-8' id='experiences'>
+        <section className='flex flex-col gap-y-8 scroll-mt-24' id='experiences'>
             <h2 className='text-h2-heading'>Work Experience</h2>
 
             <div className=''>
@@ -40,7 +40,7 @@ export default function WorkExperience() {
                             <div className='flex flex-row gap-4 items-center flex-wrap'>
                                 {
                                     workExperience.resources.map((resource, index) => (
-                                        <Link href={ resource.link } key={ index } className='flex flex-row items-center gap-x-2 text-small hover:text-zinc-400 duration-200'>
+                                        <Link href={ resource.link } key={ index } className='flex flex-row items-center gap-x-2 text-small hover:text-zinc-400 duration-200' target='_blank'>
                                             <LinkIcon className='w-4 h-4 shrink-0' />{ resource.label }
                                         </Link>
                                     ))

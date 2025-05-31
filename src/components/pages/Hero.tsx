@@ -39,7 +39,7 @@ export default function Hero() {
                     <Link href="https://www.linkedin.com/in/eugenetangkj" target='_blank'>Let&apos;s Connect</Link>
                 </button>
                 <button className="button-light">
-                    <Link href="#">View Resume</Link>
+                    <Link href="https://drive.google.com/file/d/1cDopHQswK7BOeT1P0NAZaosv57P2A5FX/view?usp=sharing" target='_blank'>View Resume</Link>
                 </button>
                 </div>
             </div>

@@ -17,7 +17,7 @@ export default function Volunteering() {
     const visibleCount = showAll ? VolunteeringExperiences.length : numberOfItemsToShow
 
     return (
-        <section className='flex flex-col gap-y-8 self-start' id='volunteering'>
+        <section className='flex flex-col gap-y-8 self-start scroll-mt-24' id='volunteering'>
             <h2 className='text-h2-heading'>Volunteering</h2>
 
             <div className=''>
@@ -39,7 +39,7 @@ export default function Volunteering() {
                             <div className='flex flex-row gap-4 items-center flex-wrap'>
                                 {
                                     volunteeringExperience.resources.map((resource, index) => (
-                                        <Link href={ resource.link } key={ index } className='flex flex-row items-center gap-x-2 text-small hover:text-zinc-400 duration-200'>
+                                        <Link href={ resource.link } key={ index } className='flex flex-row items-center gap-x-2 text-small hover:text-zinc-400 duration-200' target='_blank'>
                                             <LinkIcon className='w-4 h-4 shrink-0' />{ resource.label }
                                         </Link>
                                     ))
