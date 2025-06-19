@@ -228,7 +228,7 @@ export const FullProjectsList: Project[] = [
     },
     {
         title: 'Playbits',
-        date: 'June 2025',
+        date: 'Jun 2025',
         description: "A generative AI application that transforms traditional text-based educational material into an accessible revision flow designed for children with focus-related disabilities such as ADHD.",
         resources: [
             {
