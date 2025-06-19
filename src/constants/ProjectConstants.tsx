@@ -227,6 +227,31 @@ export const FullProjectsList: Project[] = [
         image: '/images/projects/shooting-portals.png'
     },
     {
+        title: 'Playbits',
+        date: 'June 2025',
+        description: "A generative AI application that transforms traditional text-based educational material into an accessible revision flow designed for children with focus-related disabilities such as ADHD.",
+        resources: [
+            {
+                label: 'Website',
+                link: 'https://playbitss-frontend.vercel.app/'
+            },
+            {
+                label: 'Devpost',
+                link: 'https://devpost.com/software/playbits-3nldkb'
+            },
+            {
+                label: 'GitHub',
+                link: 'https://github.com/eugenetangkj/playbits-frontend'
+            },
+            {
+                label: 'Slides',
+                link: 'https://drive.google.com/file/d/1u69gkvjbrBVmPn_E4lC2KH3JK4KpkCLl/view?usp=sharing'
+            },
+        ],
+        technologies: ['Next.JS', 'TailwindCSS', 'FastAPI', 'MongoDB', 'Figma'],
+        image: '/images/projects/playbits.png'
+    },
+    {
         title: 'Brand Guide for Dinosaur Illustrator',
         date: 'Oct 2024',
         description: "A brand guide created for a persona who specialises in creating dinosaur art for children's publications.",

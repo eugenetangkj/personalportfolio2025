@@ -209,7 +209,7 @@
   }
 
   .button-light {
-    @apply bg-white hover:bg-stone-100 text-zinc-600 cursor-pointer rounded-full sm:text-lg px-6 py-3 font-lato duration-200 shadow-lg
+    @apply bg-neutral-100 hover:bg-neutral-50 text-zinc-600 cursor-pointer rounded-full sm:text-lg px-6 py-3 font-lato duration-200 shadow-lg
   }
 
   .card-faint-text {

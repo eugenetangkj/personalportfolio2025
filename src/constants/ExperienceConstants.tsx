@@ -99,6 +99,22 @@ export const TeachingExperiences: Teaching[] = [
 
 export const VolunteeringExperiences: Volunteering[] = [
     {
+        role: 'Befriender',
+        organisation: 'Project RAYS with Rare Disorders Society Singapore',
+        date: 'Jun 2025',
+        contributions: 'I befriended individuals with rare disorders for arts and game sessions.',
+        summary: 'Befriended individuals with rare disorders for arts and game sessions.',
+        resources: [],
+    },
+    {
+        role: 'Volunteer',
+        organisation: 'Care Corner',
+        date: 'Jun 2025',
+        contributions: 'I taught basic Scratch programming to primary school children.',
+        summary: 'Taught basic Scratch programming to primary school children.',
+        resources: [],
+    },
+    {
         role: 'Volunteer',
         organisation: 'Paint-A-Home XXIV @ Hougang',
         date: 'Jul 2024',
@@ -109,7 +125,7 @@ export const VolunteeringExperiences: Volunteering[] = [
     {
         role: 'Facilitator',
         organisation: 'Muscular Dystrophy Association (Singapore)',
-        date: 'Jun 2024',
+        date: 'Jun 2024, Jun 2025',
         contributions: 'I served as a facilitator for an overnight camp organised for children, where I supported and encouraged their participation in activities and provided care throughout the camp.',
         summary: 'Faciliated an overnight camp organised for children.',
         resources: [],

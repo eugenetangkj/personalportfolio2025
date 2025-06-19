@@ -14,7 +14,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(false)
 
     return (
-        <nav className="fixed md:top-4 left-1/2 transform -translate-x-1/2 z-50 bg-portfolio-background/90 md:bg-white/90 text-lg py-8 md:py-4 px-8 sm:px-16 md:px-6 flex flex-row justify-between items-center md:rounded-xl md:border-1 w-full md:w-fit">
+        <nav className="fixed md:top-4 left-1/2 transform -translate-x-1/2 z-50 bg-white/90 md:bg-white/90 text-lg py-8 md:py-4 px-8 sm:px-16 md:px-6 flex flex-row justify-between items-center md:rounded-xl md:border-1 w-full md:w-fit">
 
             {/* Home */}
             <Link href='/'>
@@ -42,7 +42,7 @@ export default function Navbar() {
                 <SheetTrigger asChild>
                     <Menu className='text-gray-500 w-6 h-6 hover:text-gray-400 cursor-pointer duration-200' />
                 </SheetTrigger>
-                <SheetContent className="w-screen bg-portfolio-background text-white p-8">
+                <SheetContent className="w-screen bg-white text-white p-8">
                     <SheetHeader>
                         <SheetTitle>
                         </SheetTitle>

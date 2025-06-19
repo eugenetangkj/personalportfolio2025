@@ -17,7 +17,7 @@ export default function Volunteering() {
     const visibleCount = showAll ? VolunteeringExperiences.length : numberOfItemsToShow
 
     return (
-        <section className='flex flex-col gap-y-8 self-start scroll-mt-24' id='volunteering'>
+        <section className='flex flex-col gap-y-8 self-start scroll-mt-24 w-full' id='volunteering'>
             <h2 className='text-h2-heading'>Volunteering</h2>
 
             <div className=''>

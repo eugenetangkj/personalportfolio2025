@@ -2,6 +2,16 @@ import { Award } from "@/types/Award";
 
 export const AwardsList: Award[] = [
     {
+        name: '3rd Prize',
+        affliation: 'NUS LifeHack 2025',
+        date: 'Jun 2025',
+    },
+    {
+        name: "Dean's List for AY24/25 Semester 2",
+        affliation: 'NUS Coursework',
+        date: 'Jun 2025',
+    },
+    {
         name: 'Innovative Open-Source Excellence Award, Video and Marketing Excellence Award, and Best Project Award for CS3203 (Platinum)',
         affliation: 'NUS Computing 26th STePS',
         date: 'Apr 2025',
