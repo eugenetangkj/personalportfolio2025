@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Lato, Playfair_Display } from "next/font/google";
+import { Lato, Playfair_Display, Inter, Figtree } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
@@ -15,6 +15,11 @@ const latoFont = Lato({
   weight: "400"
 });
 
+const figtreeFont = Figtree({
+    variable: "--font-figtree",
+    subsets: ["latin"],
+});
+
 
 export const metadata: Metadata = {
   title: "Eugene Tang KangJie",
@@ -24,7 +29,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
     return (
         <html lang="en" className='scroll-smooth'>
-            <body className={`${playFairDisplayFont.variable} ${latoFont.variable} antialiased tracking-tight bg-white`}>
+            <body className={`${playFairDisplayFont.variable} ${latoFont.variable} ${figtreeFont.variable} antialiased tracking-tight bg-white`}>
                 <Navbar />
                 {children}
                 <Footer />
