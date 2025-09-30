@@ -9,7 +9,7 @@ import Awards from "@/components/pages/Awards";
 
 export default function Home() {
   return (
-    <div className='flex flex-col space-y-24 justify-center items-center custom-margin mb-24'>
+    <div className='flex flex-col space-y-36 justify-center items-center custom-margin mb-24'>
         <Hero />
         <AboutMe />
         <WorkExperience />

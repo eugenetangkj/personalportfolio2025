@@ -9,7 +9,7 @@ This component represents the Hero section of the landing page.
 export default function Hero() {
 
     return (
-        <section className="relative flex flex-col h-screen items-center justify-center space-y-16 mt-16">
+        <section className="relative flex flex-col h-screen items-center justify-center space-y-16 mt-16 mb-0">
             
             {/* Headers and buttons */}
             <div className="flex flex-col items-center justify-center space-y-12">
