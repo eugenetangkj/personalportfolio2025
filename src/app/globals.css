@@ -179,15 +179,15 @@
   }
 
   .text-h3-heading {
-    @apply text-zinc-900 text-2xl sm:text-3xl font-lato 
+    @apply text-zinc-900 text-2xl sm:text-3xl font-figtree 
   }
 
   .text-h4-heading {
-    @apply text-zinc-500 text-xl sm:text-2xl font-lato
+    @apply text-zinc-600 text-xl sm:text-2xl font-figtree 
   }
 
   .text-h5-heading {
-    @apply text-zinc-500 text-lg sm:text-xl font-lato
+    @apply text-zinc-600 text-lg sm:text-xl font-figtree 
   }
 
   .text-paragraph {
@@ -195,14 +195,14 @@
   }
 
   .text-subparagraph {
-    @apply text-zinc-800 font-figtree leading-7 sm:text-lg
+    @apply text-zinc-600 font-figtree leading-7 sm:text-lg
   }
 
   .text-small {
-    @apply text-zinc-500 font-lato leading-7 text-base
+    @apply text-zinc-500 font-figtree leading-7 text-base
   }
   .text-extra-small {
-    @apply text-zinc-500 font-lato leading-7 text-sm
+    @apply text-zinc-500 font-figtree leading-7 text-sm
   }
 
   .button-dark {
