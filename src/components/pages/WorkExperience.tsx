@@ -20,25 +20,25 @@ export default function WorkExperience() {
                             <div className="flex flex-row justify-start items-center w-full space-x-4">
                                 {/* Image */}
                                 <Image 
-                                    src="/images/work/shopee.svg" 
+                                    src={ workExperience.imageLink } 
                                     className="rounded-md" 
                                     alt="Project" 
                                     width={55} 
                                     height={55} 
                                 />
 
-                                <div className='flex flex-col items-center justify-center flex-1'>
+                                <div className='flex flex-col items-center justify-center flex-1 space-y-2'>
 
                                     {/* Row 1 text */}
                                     <div className="flex flex-row justify-between items-center w-full">
-                                        <h4 className="text-h4-heading">{ workExperience.role }</h4>
-                                        <h5 className="text-h5-heading">{ workExperience.date }</h5>
+                                        <h5 className="text-h5-heading leading-5">{ workExperience.role }</h5>
+                                        <h5 className="text-h5-heading leading-5">{ workExperience.date }</h5>
                                     </div>
 
                                     {/* Row 2 text */}
                                     <div className="flex flex-row justify-between items-center w-full">
-                                        <p className="text-small">{ workExperience.company }</p>
-                                        <p className="text-small">Singapore</p>
+                                        <p className="text-small !leading-5">{ workExperience.company }</p>
+                                        <p className="text-small !leading-5">{ workExperience.country }</p>
                                     </div>
                             
                                 </div>
@@ -48,7 +48,6 @@ export default function WorkExperience() {
                             </div>
 
 
-                           
                             {/* Contributions */}
                             <ul className=' list-disc pl-5 space-y-2 text-subparagraph'>
                                 {
@@ -57,6 +56,20 @@ export default function WorkExperience() {
                                     ))
                                 }
                             </ul>
+
+
+                             {/* Tech Stack */}
+                            <div className='flex flex-row gap-2 items-center flex-wrap'>
+                                {
+                                    workExperience.technologies.map((technology, index) => (
+                                        <div className='rounded-full bg-blue-100 text-small px-4 py-0.5 !text-zinc-700 ' key={ index }>{ technology }</div>
+                                ))
+                                }
+                            </div>
+
+
+
+
 
                             {/* Resources */}
                             <div className='flex flex-row gap-4 items-center flex-wrap'>
