@@ -13,10 +13,7 @@ export default function Hero() {
             
             {/* Headers and buttons */}
             <div className="flex flex-col items-center justify-center space-y-12">
-                {/* Insert here */}
-
-                
-                <h1 className="text-h1-heading text-center">Eugene is a software engineer passionate about <span className='font-semibold'>community impact</span>. He <span className='text-blue-400 inline-block transition-transform duration-300 hover:scale-125 hover:rotate-12'>✿</span> crafts intuitive products, <span className='text-purple-500 inline-block transition-transform duration-300 hover:scale-125 hover:-rotate-12'>✱</span> designs with empathy, and <span className='text-pink-400 inline-block transition-transform duration-300 hover:scale-125'>❤</span> builds tools that create meaningful change.</h1>
+                <h1 className="text-h1-heading text-center">Eugene is a software engineer passionate about <span className='font-semibold'>community impact</span>. He <span className='text-blue-400 inline-block transition-transform duration-300 hover:scale-125 hover:rotate-12'>✿</span> crafts intuitive products, <span className='text-purple-500 inline-block transition-transform duration-300 hover:scale-125 hover:-rotate-12'>✱</span> designs with empathy, and <span className='text-pink-400 inline-block transition-transform duration-300 hover:scale-125'>‪‪❤︎‬</span> builds tools that create meaningful change.</h1>
                 
             
             </div>

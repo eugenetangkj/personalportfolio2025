@@ -24,7 +24,7 @@ export default function AboutMe() {
                     </p>
 
                      <p className='text-subparagraph'>
-                        <span className='font-semibold text-pink-400'>❤ I contribute</span>. I contribute to my community by applying my knowledge to solve problems and support those in need. I&apos;m driven to create products that benefit the people around me.
+                        <span className='font-semibold text-pink-400'>‪‪❤︎‬ I contribute</span>. I contribute to my community by applying my knowledge to solve problems and support those in need. I&apos;m driven to create products that benefit the people around me.
                     </p>
             </div>
 
