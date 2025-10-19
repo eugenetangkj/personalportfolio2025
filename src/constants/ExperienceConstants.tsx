@@ -12,7 +12,7 @@ export const WorkExperiences: Employment[] = [
         resources: [
         ],
         technologies: ['Objective-C', 'Swift', 'UIKit'],
-        imageLink: '/images/work/shopee.svg',
+        imageLink: '/images/work/shopee.png',
         country: 'Singapore'
     },
 
@@ -34,7 +34,7 @@ export const WorkExperiences: Employment[] = [
             }
         ],
         technologies: ['Python'],
-        imageLink: '/images/work/msf.svg',
+        imageLink: '/images/work/msf.png',
         country: 'Singapore'
     },
     {
@@ -55,7 +55,7 @@ export const WorkExperiences: Employment[] = [
             }
         ],
         technologies: ['Java Spring', 'IBM DB2', 'RTC Jazz', 'Jenkins', 'SoapUI'],
-        imageLink: '/images/work/cpf.svg',
+        imageLink: '/images/work/cpf.png',
         country: 'Singapore'
     },
     {
@@ -79,7 +79,7 @@ export const WorkExperiences: Employment[] = [
             }
         ],
         technologies: ['Flutter', 'PHP Laravel', 'Voyager', 'HTML', 'CSS', 'JavaScript', 'MySQL', 'Figma'],
-        imageLink: '/images/work/cbm.svg',
+        imageLink: '/images/work/cbm.png',
         country: 'Singapore'
     }
 ]
