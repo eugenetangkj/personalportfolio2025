@@ -18,13 +18,16 @@ export default function ResearchExperience() {
                             <div className='flex flex-col space-y-4' key={ index }>
 
                                 <div className='flex flex-col space-y-2'>
-                                    {/* Role */}
-                                    <h3 className='text-h3-heading !text-zinc-500'>{ researchExperience.role }</h3>
+                                    {/* Row 1 text */}
+                                    <div className="flex flex-row justify-between items-center w-full">
+                                        <h5 className="text-h5-heading leading-5">{ researchExperience.role }</h5>
+                                        <h5 className="text-h5-heading leading-5">{ researchExperience.date }</h5>
+                                    </div>
 
-                                    {/* Lab and date */}
-                                    <div className="flex flex-row justify-between items-center">
-                                        <h5 className='text-h5-heading'>{ researchExperience.lab }</h5>
-                                        <h6 className='text-h5-heading'>{ researchExperience.date }</h6>
+                                    {/* Row 2 text */}
+                                    <div className="flex flex-row justify-between items-center w-full">
+                                        <p className="text-small !leading-5">{ researchExperience.lab }</p>
+                                        <p className="text-small !leading-5">{ researchExperience.country }</p>
                                     </div>
                                 </div>
 
@@ -45,13 +48,13 @@ export default function ResearchExperience() {
                                 </div>
 
                                 {/* Tech Stack */}
-                                <div className='flex flex-row gap-2 items-center flex-wrap'>
+                                {/* <div className='flex flex-row gap-2 items-center flex-wrap'>
                                     {
                                         researchExperience.technologies.map((technology, index) => (
                                             <div className='rounded-full bg-portfolio-darkblue text-small px-4 py-0.5 !text-white' key={ index }>{ technology }</div>
                                         ))
                                     }
-                                </div>
+                                </div> */}
 
                                 {/* Horizontal line */}
                                 {

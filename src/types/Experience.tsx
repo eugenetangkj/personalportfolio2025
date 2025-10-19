@@ -6,7 +6,9 @@ export interface Employment {
     date: string,
     contributions: string[],
     resources: Resource[],
-    technologies: string[]
+    technologies: string[],
+    imageLink: string,
+    country: string
 }
 
 export interface Research {
@@ -16,6 +18,7 @@ export interface Research {
     contributions: string,
     resources: Resource[],
     technologies: string[],
+    country: string
 }
 
 export interface Teaching {
@@ -24,7 +27,9 @@ export interface Teaching {
     date: string,
     contributions: string,
     resources: Resource[],
-    technologies: string[]
+    technologies: string[],
+    country: string,
+    school: string
 }
 
 export interface Volunteering {

@@ -15,14 +15,18 @@ export default function TeachingExperience() {
                             <div className='flex flex-col space-y-4' key={ index }>
 
                                 <div className='flex flex-col space-y-2'>
-                                    {/* Role */}
-                                    <h3 className='text-h3-heading !text-zinc-500'>{ teachingExperience.role }</h3>
-
-                                    {/* Course and date */}
-                                    <div className="flex flex-row justify-between items-center">
-                                        <h5 className='text-h5-heading'>{ teachingExperience.course }</h5>
-                                        <h6 className='text-h5-heading'>{ teachingExperience.date }</h6>
+                                    {/* Row 1 text */}
+                                    <div className="flex flex-row justify-between items-center w-full">
+                                        <h5 className="text-h5-heading leading-5">{ teachingExperience.role }</h5>
+                                        <h5 className="text-h5-heading leading-5">{ teachingExperience.date }</h5>
                                     </div>
+
+                                    {/* Row 2 text */}
+                                    <div className="flex flex-row justify-between items-center w-full">
+                                        <p className="text-small !leading-5">{ teachingExperience.course }</p>
+                                        <p className="text-small !leading-5">{ teachingExperience.country }</p>
+                                    </div>
+
                                 </div>
 
                                 {/* Contributions */}
@@ -42,13 +46,13 @@ export default function TeachingExperience() {
                                 </div> */}
 
                                 {/* Tech Stack */}
-                                <div className='flex flex-row gap-2 items-center flex-wrap'>
+                                {/* <div className='flex flex-row gap-2 items-center flex-wrap'>
                                     {
                                         teachingExperience.technologies.map((technology, index) => (
                                             <div className='rounded-full bg-portfolio-darkblue text-small px-4 py-0.5 !text-white' key={ index }>{ technology }</div>
                                         ))
                                     }
-                                </div>
+                                </div> */}
 
                                 {/* Horizontal line */}
                                 {

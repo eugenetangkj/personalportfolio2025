@@ -1,4 +1,4 @@
-import { FullProjectsList } from "@/constants/ProjectConstants";
+import { AdditionalProjectsList } from "@/constants/ProjectConstants";
 import Image from "next/image";
 import Link from "next/link";
 import { LinkIcon, ArrowLeft } from "lucide-react";
@@ -22,7 +22,7 @@ export default function ProjectsPage() {
             {/* Additional projects */}
             <div className=''>
                 {
-                    FullProjectsList.map((project, index) => (
+                    AdditionalProjectsList.map((project, index) => (
                         <div className='flex flex-col space-y-4' key={ index }>
                             <div className='flex flex-col-reverse gap-y-8 md:flex-row items-center md:space-x-12'>
                                 {/* Image */}
@@ -63,7 +63,7 @@ export default function ProjectsPage() {
                             </div>
 
                             {/* Horizontal line */}
-                            { index !== FullProjectsList.length - 1 &&
+                            { index !== AdditionalProjectsList.length - 1 &&
                                 <div className="block col-span-1 h-px bg-gray-300 w-full my-4" />
                             }
                         </div>

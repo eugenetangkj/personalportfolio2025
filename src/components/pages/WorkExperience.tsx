@@ -1,6 +1,7 @@
 import { WorkExperiences } from "@/constants/ExperienceConstants";
 import Link from "next/link";
 import { Link as LinkIcon } from "lucide-react";
+import Image from "next/image";
 
 
 /**
@@ -16,16 +17,36 @@ export default function WorkExperience() {
                     WorkExperiences.map((workExperience, index) => (
                         <div className='flex flex-col space-y-4' key={ index }>
 
-                            <div className='flex flex-col space-y-2'>
-                                {/* Role */}
-                                <h3 className='text-h3-heading !text-zinc-500'>{ workExperience.role }</h3>
+                            <div className="flex flex-row justify-start items-center w-full space-x-4">
+                                {/* Image */}
+                                <Image 
+                                    src={ workExperience.imageLink } 
+                                    className="rounded-md" 
+                                    alt="Project" 
+                                    width={55} 
+                                    height={55} 
+                                />
 
-                                {/* Company and date */}
-                                <div className="flex flex-row justify-between items-center">
-                                    <h5 className='text-h5-heading'>{ workExperience.company }</h5>
-                                    <h5 className='text-h5-heading'>{ workExperience.date }</h5>
+                                <div className='flex flex-col items-center justify-center flex-1 space-y-2'>
+
+                                    {/* Row 1 text */}
+                                    <div className="flex flex-row justify-between items-center w-full">
+                                        <h5 className="text-h5-heading leading-5">{ workExperience.role }</h5>
+                                        <h5 className="text-h5-heading leading-5">{ workExperience.date }</h5>
+                                    </div>
+
+                                    {/* Row 2 text */}
+                                    <div className="flex flex-row justify-between items-center w-full">
+                                        <p className="text-small !leading-5">{ workExperience.company }</p>
+                                        <p className="text-small !leading-5">{ workExperience.country }</p>
+                                    </div>
+                            
                                 </div>
+                            
+                            
+                            
                             </div>
+
 
                             {/* Contributions */}
                             <ul className=' list-disc pl-5 space-y-2 text-subparagraph'>
@@ -35,6 +56,20 @@ export default function WorkExperience() {
                                     ))
                                 }
                             </ul>
+
+
+                             {/* Tech Stack */}
+                            <div className='flex flex-row gap-2 items-center flex-wrap'>
+                                {
+                                    workExperience.technologies.map((technology, index) => (
+                                        <div className='rounded-full bg-blue-100 text-extra-small px-4 py-0.5 !text-zinc-700 ' key={ index }>{ technology }</div>
+                                ))
+                                }
+                            </div>
+
+
+
+
 
                             {/* Resources */}
                             <div className='flex flex-row gap-4 items-center flex-wrap'>
@@ -47,15 +82,8 @@ export default function WorkExperience() {
                                 }
                             </div>
 
-                            {/* Tech Stack */}
-                            <div className='flex flex-row gap-2 items-center flex-wrap'>
-                                {
-                                    workExperience.technologies.map((technology, index) => (
-                                        <div className='rounded-full bg-portfolio-darkblue text-small px-4 py-0.5 !text-white' key={ index }>{ technology }</div>
-                                    ))
-                                }
-                            </div>
-
+                    
+                          
                             {/* Horizontal line */}
                             {
                                 index !== WorkExperiences.length - 1 &&

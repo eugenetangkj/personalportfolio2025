@@ -8,6 +8,7 @@
   --color-foreground: var(--foreground);
   --font-playfair-display: var(--font-playfair-display);
   --font-lato: var(--font-lato);
+  --font-figtree: var(--font-figtree);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -170,38 +171,38 @@
   }
 
   .text-h1-heading {
-    @apply text-4xl sm:text-5xl text-zinc-900 font-playfair-display
+    @apply text-2xl sm:text-3xl md:text-3xl lg:text-4xl text-zinc-900 font-figtree leading-8 sm:leading-10 lg:leading-12
   }
   
   .text-h2-heading {
-    @apply text-zinc-700 text-3xl sm:text-4xl 
+    @apply text-zinc-800 text-3xl sm:text-4xl font-figtree font-semibold
   }
 
   .text-h3-heading {
-    @apply text-zinc-700 text-2xl sm:text-3xl font-lato 
+    @apply text-zinc-600 text-2xl sm:text-3xl font-figtree 
   }
 
   .text-h4-heading {
-    @apply text-zinc-500 text-xl sm:text-2xl font-lato
+    @apply text-zinc-600 text-xl sm:text-2xl font-figtree 
   }
 
   .text-h5-heading {
-    @apply text-zinc-500 text-lg sm:text-xl font-lato
+    @apply text-zinc-600 text-lg sm:text-xl xl:text-2xl font-figtree 
   }
 
   .text-paragraph {
-    @apply text-lg sm:text-xl text-zinc-500 font-lato leading-8
+    @apply text-lg sm:text-xl text-zinc-600 font-figtree leading-8
   }
 
   .text-subparagraph {
-    @apply text-zinc-600 font-lato leading-7 sm:text-lg
+    @apply text-zinc-600 font-figtree leading-7 sm:text-lg
   }
 
   .text-small {
-    @apply text-zinc-500 font-lato leading-7 text-base
+    @apply text-zinc-600 font-figtree leading-7 text-base
   }
   .text-extra-small {
-    @apply text-zinc-500 font-lato leading-7 text-sm
+    @apply text-zinc-600 font-figtree leading-7 text-sm
   }
 
   .button-dark {
@@ -215,4 +216,25 @@
   .card-faint-text {
     @apply text-5xl sm:text-6xl xl:text-7xl font-light opacity-80 py-4 md:py-8
   }
+
+  @keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 24s linear infinite;
+}
+
+
+
+
+ 
+
+  
+
 }
