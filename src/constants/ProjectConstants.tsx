@@ -24,7 +24,7 @@ export const ProjectsList: Project[] = [
             }
         ],
         technologies: ['Next.JS', 'TailwindCSS', 'shadcn', 'Flowbite', 'useSWR', 'Figma', 'Adobe Illustrator'],
-        image: '/images/projects/justyap.png'
+        image: '/images/projects/justyap.svg'
     },
     {
         title: 'Good Goods',
@@ -42,7 +42,7 @@ export const ProjectsList: Project[] = [
            
         ],
         technologies: ['Next.JS', 'TailwindCSS', 'Flowbite', 'MongoDB', 'OpenAI'],
-        image: '/images/projects/goodgoods.png'
+        image: '/images/projects/goodgoods.svg'
     },
     {
         title: 'ITS Automated Testing Engine',
@@ -64,7 +64,7 @@ export const ProjectsList: Project[] = [
            
         ],
         technologies: ['Python', 'PyTest', 'OpenAI', 'Docker'],
-        image: '/images/projects/automated-testing-engine.png'
+        image: '/images/projects/automated-testing-engine.svg'
     },
     {
         title: 'Computer, Easy Lah!',
@@ -85,7 +85,7 @@ export const ProjectsList: Project[] = [
             }, 
         ],
         technologies: ['Next.JS', 'TailwindCSS', 'Figma'],
-        image: '/images/projects/cel.png'
+        image: '/images/projects/cel.svg'
     },
     {
         title: 'Shooting Portals',
@@ -110,7 +110,7 @@ export const ProjectsList: Project[] = [
             }
         ],
         technologies: ['Unity', 'Microsoft Azure PlayFab'],
-        image: '/images/projects/shooting-portals.png'
+        image: '/images/projects/shooting-portals.svg'
     },
 ]
 
@@ -138,7 +138,7 @@ export const FullProjectsList: Project[] = [
             }
         ],
         technologies: ['Next.JS', 'TailwindCSS', 'shadcn', 'Flowbite', 'useSWR', 'Figma', 'Adobe Illustrator'],
-        image: '/images/projects/justyap.png'
+        image: '/images/projects/justyap.svg'
     },
     {
         title: 'Good Goods',

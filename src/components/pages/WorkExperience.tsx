@@ -62,7 +62,7 @@ export default function WorkExperience() {
                             <div className='flex flex-row gap-2 items-center flex-wrap'>
                                 {
                                     workExperience.technologies.map((technology, index) => (
-                                        <div className='rounded-full bg-blue-100 text-small px-4 py-0.5 !text-zinc-700 ' key={ index }>{ technology }</div>
+                                        <div className='rounded-full bg-blue-100 text-extra-small px-4 py-0.5 !text-zinc-700 ' key={ index }>{ technology }</div>
                                 ))
                                 }
                             </div>
