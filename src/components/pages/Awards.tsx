@@ -63,7 +63,7 @@ export default function Awards() {
                 
                 <div className='flex flex-col items-center justify-start space-y-2'>
                     <Image src='/images/awards/orbital-2022.png' className='rounded-md' alt="Judge's Choice Award at Orbital 2022" width={ 1260 } height={ 716 } />
-                    <h6 className='text-extra-small !leading-5'>Judge's Choice Award at Orbital 22 🏅</h6>
+                    <h6 className='text-extra-small !leading-5'>Judge&apos;s Choice Award at Orbital 22 🏅</h6>
                 </div>
             </div>
         </section>

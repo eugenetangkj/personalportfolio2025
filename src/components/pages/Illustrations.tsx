@@ -1,7 +1,5 @@
 "use client"
 
-import { AwardsList } from "@/constants/AwardConstants";
-import Image from "next/image";
 import ImageCarousel from "../common/ImageCarousel";
 
 /**

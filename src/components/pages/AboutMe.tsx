@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 /**
 This component represents the About Me section of the landing page.
 */
@@ -22,11 +20,11 @@ export default function AboutMe() {
                     </p>
 
                     <p className='text-subparagraph'>
-                        <span className='font-semibold text-purple-400'>✱ I design</span>. I prioritise user experience in my products, with an understanding of the UX design lifecycle and strong prototyping skills. My goal is to create solutions that genuinely address users' needs.
+                        <span className='font-semibold text-purple-400'>✱ I design</span>. I prioritise user experience in my products, with an understanding of the UX design lifecycle and strong prototyping skills. My goal is to create solutions that genuinely address users&apos; needs.
                     </p>
 
                      <p className='text-subparagraph'>
-                        <span className='font-semibold text-pink-400'>❤ I contribute</span>. I contribute to my community by applying my knowledge to solve problems and support those in need. I'm driven to create products that benefit the people around me.
+                        <span className='font-semibold text-pink-400'>❤ I contribute</span>. I contribute to my community by applying my knowledge to solve problems and support those in need. I&apos;m driven to create products that benefit the people around me.
                     </p>
             </div>
 

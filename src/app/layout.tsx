@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Lato, Playfair_Display, Inter, Figtree } from "next/font/google";
+import { Lato, Playfair_Display, Figtree } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
