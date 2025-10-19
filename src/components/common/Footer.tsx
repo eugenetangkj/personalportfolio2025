@@ -9,8 +9,8 @@ export default function Footer() {
             <div className='custom-margin flex flex-col items-start space-y-16'>
                 {/* Get in touch */}
                  <div className='flex flex-col space-y-4 md:space-y-8 items-start'>
-                    <h1 className='text-h2-heading text-center md:text-start font-semibold'>Thanks for stopping by! •ᴗ•</h1>
-                    <h3 className='text-paragraph text-center md:text-start font-semibold'>Want to work together? Let&apos;s get in touch.</h3>
+                    <h1 className='text-h2-heading text-start font-semibold'>Thanks for stopping by! •ᴗ•</h1>
+                    <h3 className='text-paragraph text-start font-semibold'>Want to work together? Let&apos;s get in touch.</h3>
                 </div>
 
                 {/* Social Links */}
