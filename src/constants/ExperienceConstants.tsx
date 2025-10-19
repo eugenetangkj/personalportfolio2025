@@ -6,8 +6,8 @@ export const WorkExperiences: Employment[] = [
         company: 'Shopee',
         date: 'Jul 25 - Present',
         contributions: [
-            "Collaborated on maintaining Shopee's native iOS app as part of the Mobile App & Frontend, Native Infra team",
-            "Worked on developing and maintaining native infrastructure components, including SDKs and core platform modules, to support app-wide functionality"
+            "Collaborated on maintaining Shopee's native iOS app as part of the Mobile App & Frontend, Native Infra team.",
+            "Worked on developing and maintaining native infrastructure components, including SDKs and core platform modules, to support app-wide functionality."
         ],
         resources: [
         ],
@@ -15,17 +15,15 @@ export const WorkExperiences: Employment[] = [
         imageLink: '/images/work/shopee.png',
         country: 'Singapore'
     },
-
-
     {
         role: 'Data and Tech Intern',
         company: 'Ministry of Social and Family Development',
         date: 'Sep 24 - Nov 24',
         contributions: [
-            'Contributed to ops-tech solutions at Child Protective Service, Rehabilitation Protection Group',
-            'Led the prompt engineering process for Gen AI bots designed to reduce the administrative load of child protection officers in organising and summarising case notes',
-            'Performed feature engineering for a binary classification predictive analytics model to assess the risk of re-reporting for screened-out child abuse cases',
-            "Translated ops officers' requirements and developed a case flow simulation model, enabling stakeholders to assess the impact of various parameters on CPS's case pipeline",
+            'Contributed to ops-tech solutions at Child Protective Service, Rehabilitation Protection Group.',
+            'Led the prompt engineering process for Gen AI bots designed to reduce the administrative load of child protection officers in organising and summarising case notes.',
+            'Performed feature engineering for a binary classification predictive analytics model to assess the risk of re-reporting for screened-out child abuse cases.',
+            "Translated ops officers' requirements and developed a case flow simulation model, enabling stakeholders to assess the impact of various parameters on CPS's case pipeline.",
         ],
         resources: [
             {
@@ -42,11 +40,11 @@ export const WorkExperiences: Employment[] = [
         company: 'CPF Board',
         date: 'May 24 - Aug 24',
         contributions: [
-            'Contributed to the Special Account closure build at Retirement Decumulation Systems Department',
-            'Amended 6 services for 55 Withdrawal using PayNow to accommodate changes in logic and computation',
-            'Developed 3 APIs for a new system aimed at facilitating the withdrawal of new Retirement Account inflows for eligible members',
-            "Updated the backend logic for a UI screen used in CPF Board's internal business portal",
-            'Created 3 batch jobs to verify the validity of account numbers for CPF accounts and the eligibility of members for a valid Retirement Account',
+            'Contributed to the Special Account closure build at Retirement Decumulation Systems Department.',
+            'Amended 6 services for 55 Withdrawal using PayNow to accommodate changes in logic and computation.',
+            'Developed 3 APIs for a new system aimed at facilitating the withdrawal of new Retirement Account inflows for eligible members.',
+            "Updated the backend logic for a UI screen used in CPF Board's internal business portal.",
+            'Created 3 batch jobs to verify the validity of account numbers for CPF accounts and the eligibility of members for a valid Retirement Account.',
         ],
         resources: [
             {
@@ -63,10 +61,10 @@ export const WorkExperiences: Employment[] = [
         company: 'CBM Pte Ltd',
         date: 'May 23 - Aug 23',
         contributions: [
-            'Co-built a full-stack project management system for automation of report generation, reducing the number of platforms needed from 3 to 1',
-            'Designed hi-fidelity prototype for the mobile application with Figma and implemented it with Flutter',
-            'Created a web admin dashboard with HTML, CSS and JavaScript',
-            'Built APIs using PHP Laravel for connection with a MySQL database',
+            'Co-built a full-stack project management system for automation of report generation, reducing the number of platforms needed from 3 to 1.',
+            'Designed hi-fidelity prototype for the mobile application with Figma and implemented it with Flutter.',
+            'Created a web admin dashboard with HTML, CSS and JavaScript.',
+            'Built APIs using PHP Laravel for connection with a MySQL database.',
         ],
         resources: [
             {

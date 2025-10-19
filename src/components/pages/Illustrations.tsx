@@ -15,9 +15,9 @@ export default function Illustrations() {
     // const visibleCount = showAll ? AwardsList.length : numberOfItemsToShow
 
     return (
-        <section className='flex flex-col gap-y-8 self-start w-full scroll-mt-24 text-center mb-16' id='illustrations'>
-            <h2 className='text-h2-heading'>Illustrations</h2>
-            <h2 className='text-small'>Yes... I like to draw in my free time 😋</h2>
+        <section className='flex flex-col gap-y-8 self-start w-full scroll-mt-24 sm:text-center mb-8' id='illustrations'>
+            <h2 className='text-h2-heading px-8 sm:px-0'>Illustrations</h2>
+            <h2 className='text-small px-8 sm:px-0'>Yes... I like to draw in my free time 😋</h2>
             <ImageCarousel />
         </section>
     );

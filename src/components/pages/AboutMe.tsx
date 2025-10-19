@@ -1,5 +1,4 @@
-import { ABOUT_ME_VALUES } from "@/constants/AboutMeConstants";
-import AboutMeCard from "../about-me/AboutMeCard";
+import Image from "next/image";
 
 /**
 This component represents the About Me section of the landing page.
@@ -30,7 +29,6 @@ export default function AboutMe() {
                         <span className='font-semibold text-pink-400'>❤ I contribute</span>. I contribute to my community by applying my knowledge to solve problems and support those in need. I'm driven to create products that benefit the people around me.
                     </p>
             </div>
-
 
             {/* Venn diagram circles*/}
             {/* <div className="flex items-center">

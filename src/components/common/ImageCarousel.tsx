@@ -10,6 +10,8 @@ export default function ImageCarousel() {
         "/images/illustrations/graphic-4.png",
         "/images/illustrations/graphic-5.png",
         "/images/illustrations/graphic-6.png",
+        "/images/illustrations/graphic-7.png",
+        "/images/illustrations/graphic-8.png",
     ];
 
     return (

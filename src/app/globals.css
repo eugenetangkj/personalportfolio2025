@@ -175,7 +175,7 @@
   }
   
   .text-h2-heading {
-    @apply text-zinc-800 text-3xl sm:text-4xl font-figtree 
+    @apply text-zinc-800 text-3xl sm:text-4xl font-figtree font-semibold
   }
 
   .text-h3-heading {
@@ -227,7 +227,7 @@
 }
 
 .animate-marquee {
-  animation: marquee 20s linear infinite;
+  animation: marquee 24s linear infinite;
 }
 
 

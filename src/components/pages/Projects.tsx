@@ -10,7 +10,7 @@ This component represents the projects section of the landing page.
 export default function Projects() {
     return (
         <section className='flex flex-col gap-y-8 self-start scroll-mt-24' id='projects'>
-            <h2 className='text-h2-heading text-center'>Featured Projects</h2>
+            <h2 className='text-h2-heading sm:text-center'>Featured Projects</h2>
 
             {/* Featured projects */}
             <div className='flex flex-col space-y-24 items-center'>
@@ -58,7 +58,7 @@ export default function Projects() {
                 }
             </div>
 
-            <h2 className='text-h2-heading text-center mt-16'>Other Projects</h2>
+            <h2 className='text-h2-heading sm:text-center mt-16'>Other Projects</h2>
 
 
             {/* Other Projects */}
