@@ -15,7 +15,7 @@ export default function TeachingExperience() {
                             <div className='flex flex-col space-y-4' key={ index }>
 
                                 <div className='flex flex-col space-y-2'>
-                                     {/* Row 1 text */}
+                                    {/* Row 1 text */}
                                     <div className="flex flex-row justify-between items-center w-full">
                                         <h5 className="text-h5-heading leading-5">{ teachingExperience.role }</h5>
                                         <h5 className="text-h5-heading leading-5">{ teachingExperience.date }</h5>

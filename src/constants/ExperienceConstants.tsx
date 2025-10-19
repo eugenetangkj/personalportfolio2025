@@ -128,7 +128,7 @@ export const VolunteeringExperiences: Volunteering[] = [
     {
         role: 'Befriender',
         organisation: 'Project RAYS with Rare Disorders Society Singapore',
-        date: 'Jun 2025',
+        date: 'Jun 25',
         contributions: 'I befriended individuals with rare disorders for arts and game sessions.',
         summary: 'Befriended individuals with rare disorders for arts and game sessions.',
         resources: [],
@@ -136,7 +136,7 @@ export const VolunteeringExperiences: Volunteering[] = [
     {
         role: 'Volunteer',
         organisation: 'Care Corner',
-        date: 'Jun 2025',
+        date: 'Jun 25',
         contributions: 'I taught basic Scratch programming to primary school children.',
         summary: 'Taught basic Scratch programming to primary school children.',
         resources: [],
@@ -144,7 +144,7 @@ export const VolunteeringExperiences: Volunteering[] = [
     {
         role: 'Volunteer',
         organisation: 'Paint-A-Home XXIV @ Hougang',
-        date: 'Jul 2024',
+        date: 'Jul 24',
         contributions: 'I participated in a community initiative to repaint residential flats, contributing to efforts to improve the living conditions and well-being of residents.',
         summary: 'Repainted a residential flat for Paint-A-Home XXIV @ Hougang.',
         resources: [],
@@ -152,7 +152,7 @@ export const VolunteeringExperiences: Volunteering[] = [
     {
         role: 'Facilitator',
         organisation: 'Muscular Dystrophy Association (Singapore)',
-        date: 'Jun 2024, Jun 2025',
+        date: 'Jun 24, Jun 25',
         contributions: 'I served as a facilitator for an overnight camp organised for children, where I supported and encouraged their participation in activities and provided care throughout the camp.',
         summary: 'Faciliated an overnight camp organised for children.',
         resources: [],
@@ -160,7 +160,7 @@ export const VolunteeringExperiences: Volunteering[] = [
     {
         role: 'Organiser',
         organisation: 'Family Central',
-        date: 'Dec 2023 - Feb 2024',
+        date: 'Dec 23 - Feb 24',
         contributions: 'I designed and facilitated a workshop on Google Gemini for 80 older adults, introducing the concept of generative AI and demonstrating practical ways to use Google Gemini in their daily lives.',
         summary: 'Designed and faciliated a workshop on Google Gemini for 80 older adults.',
         resources: [
@@ -177,7 +177,7 @@ export const VolunteeringExperiences: Volunteering[] = [
     {
         role: 'Mentor',
         organisation: 'CampusImpact',
-        date: 'Oct 2022 - Dec 2022',
+        date: 'Oct 22 - Dec 22',
         contributions: 'I planned and conducted academic and enrichment activities for a Primary 4 student, offering academic support and designing hands-on science experiments to enhance learning.',
         summary: 'Planned and conducted academic and enrichment activities for a Primary 4 student.',
         resources: []
@@ -185,7 +185,7 @@ export const VolunteeringExperiences: Volunteering[] = [
     {
         role: 'Member',
         organisation: 'Work Live Digital',
-        date: 'Dec 2021 - Aug 2024',
+        date: 'Dec 21 - Aug 24',
         contributions: 'I curated educational booklets on basic computer usage, facilitated computer classes for older adults, and developed a website for Work Live Digital to support their digital literacy efforts.',
         summary: 'Curated educational booklets on basic computer usage, faciliated computer classes for older adults, and developed a website for Work Live Digital.',
         resources: [
@@ -198,7 +198,7 @@ export const VolunteeringExperiences: Volunteering[] = [
     {
         role: 'Tutor',
         organisation: 'CDAC Singapore',
-        date: 'Feb 2020 - Oct 2020',
+        date: 'Feb 20 - Oct 20',
         contributions: 'I provided academic support in Mathematics and Science to a Primary 6 student, helping to strengthen subject understanding and learning confidence.',
         summary: 'Provided academic support in Mathematics and Science to a Primary 6 student.',
         resources: []
@@ -206,7 +206,7 @@ export const VolunteeringExperiences: Volunteering[] = [
     {
         role: 'Organiser',
         organisation: 'Prison Fellowship Singapore',
-        date: 'Mar 2017 - Jun 2018',
+        date: 'Mar 17 - Jun 18',
         contributions: 'I led a team of five to provide weekly tuition support and organize enrichment activities for beneficiaries. We successfully fundraised $143.90 by selling self-baked biscuits decorated by the beneficiaries.',
         summary: 'Led a team of 5 to provide weekly tuition support and organise enrichment activities.',
         resources: [
