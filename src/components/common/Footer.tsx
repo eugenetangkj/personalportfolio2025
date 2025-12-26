@@ -14,12 +14,13 @@ export default function Footer() {
                 </div>
 
                 {/* Social Links */}
-                <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row items-start md:items-center justify-between w-full'>
+                <div className='flex flex-col space-y-4 lg:space-y-0 lg:flex-row items-start lg:items-center justify-between w-full'>
                     <p className='text-small text-start'>Copyright © 2025 Eugene Tang. All rights reserved.</p>
                     <div className='flex flex-row items-center text-small space-x-8 underline'>
                         <Link href="mailto:eugenetangkangjie@gmail.com">Mail</Link>
                         <Link href="https://www.linkedin.com/in/eugenetangkj" target='_blank'>LinkedIn</Link>
                         <Link href="https://github.com/eugenetangkj" target='_blank'>GitHub</Link>
+                        <Link href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=xbZ1RmAAAAAJ" target='_blank'>Google Scholar</Link>
                         <Link href="https://dribbble.com/eugenetangkj" target='_blank'>Dribbble</Link>
                     </div>
                 </div>

@@ -87,7 +87,7 @@ export const ResearchExperiences: Research[] = [
         role: 'Lab Member',
         lab: 'AI For Social Good Lab (AI4SG)',
         date: 'Aug 24 - Present',
-        contributions: "As a Human-Computer Interaction (HCI) researcher at the AI4SG Lab, my research focused on exploring how technology can support AI literacy education among older adults. I'm particularly interested in human-agent interaction paradigms and how technology can be designed to enhance educational experiences for diverse populations.",
+        contributions: "As a Human-Computer Interaction (HCI) researcher at the AI4SG Lab, my research focused on exploring how technology can support AI literacy education among older adults. I'm particularly interested in human-agent interaction paradigms and how technology can be designed to enhance educational experiences for diverse populations. My work is supervised under Dr. Yi-Chieh Lee and Ph.D candidate Song Tianqi.",
         resources:[
             {
                 label: 'AI Literacy Education for Older Adults: Motivations, Challenges and Preferences (CHI 25 Extended Abstract)',
@@ -123,6 +123,14 @@ export const TeachingExperiences: Teaching[] = [
 ]
 
 export const VolunteeringExperiences: Volunteering[] = [
+    {
+        role: 'Befriender',
+        organisation: 'The Levelled Field',
+        date: 'Nov 25 - Dec 25',
+        contributions: 'I supported learners with intellectual disabilities in ChatGPT lessons.',
+        summary: 'Supported learners with intellectual disabilities in ChatGPT lessons.',
+        resources: [],
+    },
     {
         role: 'Befriender',
         organisation: 'Project RAYS with Rare Disorders Society Singapore',
