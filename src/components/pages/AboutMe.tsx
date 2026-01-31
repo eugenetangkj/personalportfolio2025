@@ -8,7 +8,7 @@ export default function AboutMe() {
             <div className='flex flex-col space-y-4'>
                     <h2 className='text-h2-heading'>I explore human-centered problems with thoughtful tech design.</h2>
                     <p className='text-subparagraph'>
-                        I&apos;m Eugene, an aspiring Human-Computer Interaction (HCI) researcher with a background in software engineering and UX design. I see technology as a tool for improving people's lives, and I'm particularly interested in how it can be thoughtfully designed to address real-world needs and challenges. In my approach to HCI research:
+                        I&apos;m Eugene, an aspiring Human-Computer Interaction (HCI) researcher with a background in software engineering and UX design. I see technology as a tool for improving people&apos;s lives, and I&apos;m particularly interested in how it can be thoughtfully designed to address real-world needs and challenges. In my approach to HCI research:
                     </p>
                    
                     <p className='text-subparagraph'>
