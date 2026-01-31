@@ -15,7 +15,7 @@ export default function Footer() {
 
                 {/* Social Links */}
                 <div className='flex flex-col space-y-4 lg:space-y-0 lg:flex-row items-start lg:items-center justify-between w-full'>
-                    <p className='text-small text-start'>Copyright © 2025 Eugene Tang. All rights reserved.</p>
+                    <p className='text-small text-start'>Copyright © 2026 Eugene Tang. All rights reserved.</p>
                     <div className='flex flex-row items-center text-small space-x-8 underline'>
                         <Link href="mailto:eugenetangkangjie@gmail.com">Mail</Link>
                         <Link href="https://www.linkedin.com/in/eugenetangkj" target='_blank'>LinkedIn</Link>

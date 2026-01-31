@@ -4,27 +4,23 @@ This component represents the About Me section of the landing page.
 export default function AboutMe() {
     return (
         <section className='flex flex-col gap-y-12 scroll-mt-24' id='about-me'>
-             
-
-            
-
             {/* About me text */}
             <div className='flex flex-col space-y-4'>
-                    <h2 className='text-h2-heading'>I build meaningful, human-centered digital experiences.</h2>
+                    <h2 className='text-h2-heading'>I explore human-centered problems with thoughtful tech design.</h2>
                     <p className='text-subparagraph'>
-                        I&apos;m Eugene, a software engineer with a passion for <span className='font-bold'>development</span> and <span className='font-bold'>design</span>. I graduated with a Bachelor of Computing from the National University of Singapore (NUS). With hands-on experience across the software development and UX design life cycles, I thrive at the intersection of code and creativity. I hope to use my skills to <span className='font-bold '>create positive impact on others</span>.
+                        I&apos;m Eugene, an aspiring Human-Computer Interaction (HCI) researcher with a background in software engineering and UX design. I see technology as a tool for improving people's lives, and I'm particularly interested in how it can be thoughtfully designed to address real-world needs and challenges. In my approach to HCI research:
                     </p>
                    
                     <p className='text-subparagraph'>
-                        <span className='font-semibold text-blue-400'>✿ I code</span>. I specialise in software engineering, with experience in web, app, and game development. I enjoy tinkering with new technologies to bring ideas to life.
+                        <span className='font-semibold text-blue-400'>✿ I understand</span>. I identify social problems grounded in my own experiences and observations of the world around me. I then validate these problems by understanding the perspectives of relevant stakeholders and examining whether important aspects remain underexplored in existing research.
                     </p>
 
                     <p className='text-subparagraph'>
-                        <span className='font-semibold text-purple-400'>✱ I design</span>. I prioritise user experience in my products, with an understanding of the UX design lifecycle and strong prototyping skills. My goal is to create solutions that genuinely address users&apos; needs.
+                        <span className='font-semibold text-purple-400'>✱ I design</span>. I design by translating insights from stakeholders and the research landscape into meaningful interaction paradigms, exploring design opportunities that are both valuable and theoretically interesting.
                     </p>
 
                      <p className='text-subparagraph'>
-                        <span className='font-semibold text-pink-400'>‪‪❤︎‬ I contribute</span>. I contribute to my community by applying my knowledge to solve problems and support those in need. I&apos;m driven to create products that benefit the people around me.
+                        <span className='font-semibold text-pink-400'>‪‪❤︎‬ I evaluate</span>. I evaluate using a combination of quantitative and qualitative methods to assess the value of the technology with end users, linking findings back to the research questions and the problems the design aims to address.
                     </p>
             </div>
 

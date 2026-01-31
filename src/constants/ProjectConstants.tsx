@@ -77,7 +77,7 @@ export const ProjectsList: Project[] = [
             },
             {
                 label: 'Website',
-                link: 'https://www.cel.land/home'
+                link: 'https://computereasylah.vercel.app/home'
             },
             {
                 label: 'Report',
