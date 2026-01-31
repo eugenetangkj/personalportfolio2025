@@ -54,7 +54,7 @@ export const AwardsList: Award[] = [
     {
         name: "Top Students for CS3240 Interaction Design",
         affliation: 'NUS Cousework',
-        date: 'Aug 23',
+        date: 'Jan 23',
     },
     {
         name: "Judge's Choice for CP2106 Independent Software Development Project",
