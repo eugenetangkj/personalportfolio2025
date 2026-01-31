@@ -37,7 +37,7 @@ export const AwardsList: Award[] = [
         date: 'Jan 24',
     },
     {
-        name: "Orbital Best Adviser for CP2101 Independent Software Development Project",
+        name: "Orbital Best Adviser for CP2106 Independent Software Development Project",
         affliation: 'NUS Teaching',
         date: 'Jan 24',
     },
@@ -57,7 +57,7 @@ export const AwardsList: Award[] = [
         date: 'Aug 23',
     },
     {
-        name: "Judge's Choice for CP2101 Independent Software Development Project",
+        name: "Judge's Choice for CP2106 Independent Software Development Project",
         affliation: 'NUS Cousework',
         date: 'Aug 22',
     },
